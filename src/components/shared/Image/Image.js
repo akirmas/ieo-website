@@ -5,8 +5,8 @@ import { resolvePath } from '../../../helpers';
 
 import './Image.scss';
 
-const Image = ({ src, ...restProps }) => (
-  <img src={resolvePath(src)} {...restProps} />
+const Image = ({ src, alt, ...restProps }) => (
+  <img src={resolvePath(src)} alt={alt} {...restProps} />
 );
 
 Image.defaultProps = {
