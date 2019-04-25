@@ -1,0 +1,14 @@
+.header {
+  background-color: #fff;
+  padding: 0.75rem 8.75rem;
+
+  &--theme-dark {
+    background-color: #707070;
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
