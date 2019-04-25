@@ -1,0 +1,21 @@
+.button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.625rem;
+
+  &--alpha {
+    background: $linear-gradient--alpha;
+  }
+
+  &--beta {
+    background: $linear-gradient--beta;
+  }
+
+  &--gamma {
+    background: $linear-gradient--gamma;
+  }
+}
