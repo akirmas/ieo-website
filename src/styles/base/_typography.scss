@@ -1,2 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+.text {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: #2A2A2A;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
