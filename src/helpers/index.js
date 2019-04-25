@@ -5,3 +5,9 @@ export const resolvePath = (
   filePath.startsWith('http')
     ? filePath
     : prefix.concat(filePath);
+
+export const classnames = (...classList) => 
+  classList
+    .join(' ')
+    .replace(/\s+/g, ' ')
+    .trim();
