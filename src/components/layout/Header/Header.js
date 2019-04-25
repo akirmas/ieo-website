@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Image from '../../shared/Image';
 import Nav from '../Nav';
@@ -25,7 +26,9 @@ const Header = () => (
   <header className="header header--theme-dark">
     <main className="header__main">
       <Nav links={links} />
-      <Image className="logo" src="images/logo/ieo.png" alt="ieo website logo" />
+      <Link to="/">
+        <Image className="logo" src="images/logo/ieo.png" alt="ieo website logo" />
+      </Link>
     </main>
   </header>
 );
