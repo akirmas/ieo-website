@@ -7,39 +7,35 @@ import { classnames } from '../../../helpers';
 
 import './ImageSlider.scss';
 
+/**
+ * TODO: make the slider adaptive for different devices
+ */
 const ImageSlider = ({ images }) => {
-  const [ activeImage, setActiveImage ] = useState(images[images.length - 1]);
+  const [ activeImage, setActiveImage ] = useState(images[0]);
+
+  const isActive = (image) => Object.is(image, activeImage);
 
   const renderControl = (image) => {
-    const onActiveImageChange = () => {
-      setActiveImage(image);
-    };
-
-    const isActive = Object.is(image, activeImage);
+    const onActiveImageChange = () => setActiveImage(image);
 
     return (
       <div 
         key={image.src}
         className={classnames(
           'image-slider__control', 
-          isActive ? 'image-slider__control--active' : '')}
+          isActive(image) ? 'image-slider__control--is-active' : '')}
         onClick={onActiveImageChange} 
       />
     );
   };
 
-  /**
-   * TODO: make an animated transition between images
-   */
   const renderImages = (image) => {
-    const isActive = Object.is(image, activeImage);
-
     return (
       <Image 
         key={image.src}
         className={classnames(
           'image-slider__image',
-          isActive ? 'image-slider__image--active' : '')}
+          'image-slider__image--is-'.concat(isActive(image) ? 'active' : 'hidden'))}
         {...image}
       />
     );
@@ -48,10 +44,7 @@ const ImageSlider = ({ images }) => {
   return (
     <div className="image-slider">
       <figure className="image-slider__preview">
-        <Image 
-          className="image-slider__image image-slider__image--active"
-          {...activeImage}
-        />
+        {images.map(renderImages)}
       </figure>
       <div className="image-slider__controls">
         {images.map(renderControl)}
