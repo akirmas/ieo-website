@@ -5,11 +5,11 @@ import ImageSlider from './components/widgets/ImageSlider';
 
 const images = [
   {
-    src: 'images/banners/third.png'
+    src: 'images/main slider/third.png'
   },   {
-    src: 'images/banners/second.png'
+    src: 'images/main slider/second.png'
   },   {
-    src: 'images/banners/first.png'
+    src: 'images/main slider/first.png'
   },
 ];
 
