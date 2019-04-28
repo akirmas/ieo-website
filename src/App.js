@@ -1,22 +1,14 @@
 import React from 'react';
 
 import Template from './components/layout/Template';
-import ImageSlider from './components/widgets/ImageSlider';
+import RouterOutlet from './components/services/RouterOutlet';
 
-const images = [
-  {
-    src: 'images/main slider/first.png'
-  }, {
-    src: 'images/main slider/second.jpg'
-  }, {
-    src: 'images/main slider/third.jpg'
-  },      
-];
+import routes from './routes';
 
 const App = () => (
   <main className="app">
     <Template>
-      <ImageSlider {...{images}} />
+      <RouterOutlet {...{routes}} />
     </Template>
   </main>
 );
