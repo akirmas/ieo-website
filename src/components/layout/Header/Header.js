@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 import Image from '../../shared/Image';
@@ -22,8 +23,8 @@ const links = [
   },
 ];
 
-const Header = () => (
-  <header className="header header--theme-dark">
+const Header = ({ variant = 'light' }) => (
+  <header className={`header header--theme-${variant}`}>
     <main className="header__main">
       <Nav links={links} />
       <Link to="/">
@@ -32,5 +33,11 @@ const Header = () => (
     </main>
   </header>
 );
+
+Header.propTypes = {
+  variant: PropTypes.oneOf([
+    'gray', 'light'
+  ]),
+};
 
 export default Header;
