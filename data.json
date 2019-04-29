@@ -1,65 +1,162 @@
 {
-  "navigation": {
-    "אודות": [
-      {
-        "name": "מי אנחנו",
-        "to": ""
-      }, {
-        "name": "תפקידי מפתח",
-        "to": ""
+  "template": {
+    "header": {
+      "logo": {
+        "src": "images/logo/ieo.png",
+        "alt": "ieo website"
+      },
+      "navigation": [
+        {
+          "name": "אודות",
+          "to": ""
+        }, {
+          "name": "תחומי פעילות",
+          "to": ""
+        }, {
+          "name": "פתרונות",
+          "to": ""
+        }, {
+          "name": "מוצרים",
+          "to": ""
+        }
+      ]
+    },
+    "footer": {
+      "navigation": {
+        "אודות": [
+          {
+            "name": "מי אנחנו",
+            "to": ""
+          }, {
+            "name": "תפקידי מפתח",
+            "to": ""
+          }
+        ],
+        "תחומי פעילות": [
+          {
+            "name": "עסקי",
+            "to": ""
+          }, {
+            "name": "פיננסי",
+            "to": ""
+          }, {
+            "name": "אינטרנט",
+            "to": ""
+          }
+        ],
+        "פתרונות": [
+          {
+            "name": "פיתוח",
+            "to": ""
+          }, {
+            "name": "אינטגרציות",
+            "to": ""
+          }, {
+            "name": "פרסום",
+            "to": ""
+          }, {
+            "name": "ניתוח דאטה",
+            "to": ""
+          }, {
+            "name": "תקשורת ו -IT",
+            "to": ""
+          }
+        ],
+        "מוצרים": [
+          {
+            "name": "CRM",
+            "to": ""
+          }, {
+            "name": "דפי נחיתה",
+            "to": ""
+          }, {
+            "name": "אחסון",
+            "to": ""
+          }, {
+            "name": "סקיוריטי",
+            "to": ""
+          }, {
+            "name": "תקשורת",
+            "to": ""
+          }, {
+            "name": "התקנה",
+            "to": ""
+          }
+        ]
+      },
+      "copyright": "© כל הזכויות שמורות לנס טכנולוגיות 2019 דרישות החוק ושמירה על פרטיות"
+    }
+  },
+  "pages": {
+    "home": {
+      "mainSlider": [
+        {
+          "src": "images/main slider/first.png"
+        }, {
+          "src": "images/main slider/second.png"
+        }, {
+          "src": "images/main slider/third.png"
+        }
+      ],
+      "whoWeAre": {
+        "title": "מי אנחנו?",
+        "text": "חברת IEO קמה מתוך הבנת הצורך של לקוחות וחברות, שמחפשים פתרונות מקיפים עבור המותג שלהם במקום אחד. בעזרת גיוס המומחים בכל תחום, פיתחנו מחלקות העוסקות בתחומי ייעוץ עסקי ופיננסי, שירותי תקשורת, אינטרנט ומוצרים מן השורה הראשונה שיעניקו ללקוחות שלנו את כל הכלים הנדרשים כדי להגיע לטופ. "
+      },
+      "usefulProducts": {
+        "title": "מוצרים שווים במיוחד:",
+        "cards": [
+          {
+            "title": "פתרונות דיגיטליים:",
+            "image": "images/products/digital-solutions.png",
+            "text": "בניית אסטרטגיה ושיווק בפלטפורמות הנבחרות."
+          }, {
+            "title": "פיתוח שיווקי:",
+            "image": "images/products/marketing-development.png",
+            "text": "בניית אתרים בהתאם לצרכי המותג הקמה ותפעול מערכות CRM"
+          }, {
+            "title": "HUB:",
+            "image": "images/products/hub.png",
+            "text": "\"חממה\" לעסקים מתחילים הכוללת ליווי עסקי, ייעוץ פיננסי ודיגיטלי."
+          }
+        ]
+      },
+      "expertiseAreas": {
+        "title": "תחומי מומחיות:",
+        "cards": [
+          {
+            "title": "דיוק: ",
+            "image": "images/expertise/accuracy.png",
+            "text": "פרסום ממוקד מטרה וקהל יעד",
+            "variant": "pink"
+          }, {
+            "title": "חדשנות וטכנולוגיה:",
+            "image": "images/expertise/innovations.png",
+            "text": "פתרונות אחסון וטלפוניה מתקדמים",
+            "variant": "green"
+          }, {
+            "title": "השמה לכל התפקידים: ירד",
+            "image": "images/expertise/placement.png",
+            "text": "",
+            "variant": "violet"
+          }, {
+            "title": "הקמה, פיתוח ותפעול: ",
+            "image": "images/expertise/dev-des-man.png",
+            "text": "התמחות בפיתוח אתרים, עיצוב גרפי וסנכרון מערכות הטמעה ויישם מערכות CRM מתקדמות מבוססות Bitrix",
+            "variant": "blue"
+          }, {
+            "title": "אבטחת מידע:",
+            "image": "images/expertise/data-security.png",
+            "text": "אבטחת מידע מקצה לקצה בעזרת מערכות חדשניות",
+            "variant": "dark-red"
+          }, {
+            "title": "פתרונות פיננסיים: ",
+            "image": "images/expertise/financial-solutions.png",
+            "text": "פתרונות ייעוץ ולווי מקיפים",
+            "variant": "yellow"
+          }
+        ]
       }
-    ],
-    "תחומי פעילות": [
-      {
-        "name": "עסקי",
-        "to": ""
-      }, {
-        "name": "פיננסי",
-        "to": ""
-      }, {
-        "name": "אינטרנט",
-        "to": ""
-      }
-    ],
-    "פתרונות": [
-      {
-        "name": "פיתוח",
-        "to": ""
-      }, {
-        "name": "אינטגרציות",
-        "to": ""
-      }, {
-        "name": "פרסום",
-        "to": ""
-      }, {
-        "name": "ניתוח דאטה",
-        "to": ""
-      }, {
-        "name": "תקשורת ו -IT",
-        "to": ""
-      }
-    ],
-    "מוצרים": [
-      {
-        "name": "CRM",
-        "to": ""
-      }, {
-        "name": "דפי נחיתה",
-        "to": ""
-      }, {
-        "name": "אחסון",
-        "to": ""
-      }, {
-        "name": "סקיוריטי",
-        "to": ""
-      }, {
-        "name": "תקשורת",
-        "to": ""
-      }, {
-        "name": "התקנה",
-        "to": ""
-      }
-    ]
+    }
   },
   "team": [
     {
