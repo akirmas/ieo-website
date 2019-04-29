@@ -7,5 +7,9 @@
 }
 
 .container--normal {
-  max-width: $container-width--normal + 2 * $container-padding-x;
+  @include containerWidth($container-width--normal);
+}
+
+.container--wide {
+  @include containerWidth($container-width--wide);
 }
