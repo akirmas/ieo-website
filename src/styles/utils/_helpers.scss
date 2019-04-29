@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $container-padding-x;
+  padding-right: $container-padding-x;
+}
+
+.container--normal {
+  max-width: $container-width--normal + 2 * $container-padding-x;
+}
