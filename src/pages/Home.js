@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import ImageSlider from '../components/widgets/ImageSlider';
 import WhoWeAre from '../components/sections/WhoWeAre';
 import UsefulProducts from '../components/sections/UsefulProducts';
+import ExpertiseAreas from '../components/sections/ExpertiseAreas';
 
 import { AppContext } from '../context/app';
 
@@ -13,6 +14,7 @@ const Home = () => {
       mainSlider,
       whoWeAre,
       usefulProducts,
+      expertiseAreas,
     }
   } } = useContext(AppContext);
 
@@ -21,6 +23,7 @@ const Home = () => {
       <ImageSlider images={mainSlider} />
       <WhoWeAre {...whoWeAre} />
       <UsefulProducts {...usefulProducts} />
+      <ExpertiseAreas {...expertiseAreas} />
     </>
   );
 };
