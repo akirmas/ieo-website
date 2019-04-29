@@ -31,6 +31,42 @@
             "text": "\"חממה\" לעסקים מתחילים הכוללת ליווי עסקי, ייעוץ פיננסי ודיגיטלי."
           }
         ]
+      },
+      "expertiseAreas": {
+        "title": "תחומי מומחיות:",
+        "cards": [
+          {
+            "title": "דיוק: ",
+            "image": "images/expertise/accuracy.png",
+            "text": "פרסום ממוקד מטרה וקהל יעד",
+            "variant": "pink"
+          }, {
+            "title": "חדשנות וטכנולוגיה:",
+            "image": "images/expertise/innovations.png",
+            "text": "פתרונות אחסון וטלפוניה מתקדמים",
+            "variant": "green"
+          }, {
+            "title": "השמה לכל התפקידים: ירד",
+            "image": "images/expertise/placement.png",
+            "text": "",
+            "variant": "violet"
+          }, {
+            "title": "הקמה, פיתוח ותפעול: ",
+            "image": "images/expertise/dev-des-man.png",
+            "text": "התמחות בפיתוח אתרים, עיצוב גרפי וסנכרון מערכות הטמעה ויישם מערכות CRM מתקדמות מבוססות Bitrix",
+            "variant": "blue"
+          }, {
+            "title": "אבטחת מידע:",
+            "image": "images/expertise/data-security.png",
+            "text": "אבטחת מידע מקצה לקצה בעזרת מערכות חדשניות",
+            "variant": "dark-red"
+          }, {
+            "title": "פתרונות פיננסיים: ",
+            "image": "images/expertise/financial-solutions.png",
+            "text": "פתרונות ייעוץ ולווי מקיפים",
+            "variant": "yellow"
+          }
+        ]
       }
     }
   },
