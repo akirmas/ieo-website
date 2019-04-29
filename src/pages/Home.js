@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 
 import ImageSlider from '../components/widgets/ImageSlider';
 import WhoWeAre from '../components/sections/WhoWeAre';
+import UsefulProducts from '../components/sections/UsefulProducts';
 
 import { AppContext } from '../context/app';
 
@@ -11,6 +12,7 @@ const Home = () => {
     home: {
       mainSlider,
       whoWeAre,
+      usefulProducts,
     }
   } } = useContext(AppContext);
 
@@ -18,6 +20,7 @@ const Home = () => {
     <>
       <ImageSlider images={mainSlider} />
       <WhoWeAre {...whoWeAre} />
+      <UsefulProducts {...usefulProducts} />
     </>
   );
 };
