@@ -1,0 +1,46 @@
+.offer-card {
+  flex: 1;
+  display: flex;
+
+  background-color: #3D3D3D;
+
+  &__main {
+    padding: 1.375rem 2.8125rem;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__title,
+  &__text,
+  &__link {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+  }
+
+  &__title {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+
+    max-width: 421px;
+  }
+
+  &__link {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    font-weight: bold;
+
+    background-color: #0066FF;
+
+    padding: 0.625rem 1.75rem;
+  }
+}
