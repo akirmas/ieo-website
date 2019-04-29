@@ -1,0 +1,16 @@
+.footer {
+  padding-top: 1.75rem;
+  padding-bottom: 1.25rem;
+
+  &--theme-gray {
+    background-color: #242424;
+  }
+
+  &--theme-light {
+    background-color: #fff;
+
+    .nav-bottom__group-title {
+      color: #6A6A6A;
+    }
+  }
+}
