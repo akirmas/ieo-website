@@ -13,12 +13,13 @@ const Template = ({ children, location }) => {
   const variant = location.pathname === '/' ? 'gray' : 'light';
 
   const { template: {
+    header,
     footer
   } } = useContext(AppContext);
 
   return (
     <>
-      <Header {...{variant}} />
+      <Header {...{variant}} {...header} />
       {children}
       <Footer {...{variant}} {...footer} />
     </>
