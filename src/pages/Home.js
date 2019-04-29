@@ -4,6 +4,7 @@ import ImageSlider from '../components/widgets/ImageSlider';
 import WhoWeAre from '../components/sections/WhoWeAre';
 import UsefulProducts from '../components/sections/UsefulProducts';
 import ExpertiseAreas from '../components/sections/ExpertiseAreas';
+import JobOffer from '../components/sections/JobOffer';
 
 import { AppContext } from '../context/app';
 
@@ -15,6 +16,7 @@ const Home = () => {
       whoWeAre,
       usefulProducts,
       expertiseAreas,
+      jobOffer,
     }
   } } = useContext(AppContext);
 
@@ -24,6 +26,7 @@ const Home = () => {
       <WhoWeAre {...whoWeAre} />
       <UsefulProducts {...usefulProducts} />
       <ExpertiseAreas {...expertiseAreas} />
+      <JobOffer {...jobOffer} />
     </>
   );
 };
