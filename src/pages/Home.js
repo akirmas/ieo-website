@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { useContext } from 'react';
 
 import ImageSlider from '../components/widgets/ImageSlider';
+import WhoWeAre from '../components/sections/WhoWeAre';
 
-const images = [
-  {
-    src: 'images/main slider/first.png'
-  }, {
-    src: 'images/main slider/second.jpg'
-  }, {
-    src: 'images/main slider/third.jpg'
-  },      
-];
+import { AppContext } from '../context/app';
 
-const Home = () => (
-  <>
-    <ImageSlider {...{images}} />
-  </>
-);
+
+const Home = () => {
+  const { pages: { 
+    home: {
+      mainSlider,
+      whoWeAre,
+    }
+  } } = useContext(AppContext);
+
+  return (
+    <>
+      <ImageSlider images={mainSlider} />
+      <WhoWeAre {...whoWeAre} />
+    </>
+  );
+};
 
 export default Home;
