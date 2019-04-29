@@ -1,0 +1,39 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background: radial-gradient(#004CFF, #002680);
+
+  &__title,
+  &__text {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-weight: bold;
+
+    display: inline-block;
+    padding: 1rem 3.125rem;
+    margin-bottom: 3.75rem;
+
+    background-color: #000;
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    font-weight: 500;
+    text-align: center;
+
+    padding-top: 2.75rem;
+    padding-bottom: 1.875rem;
+
+    max-width: 242px;
+    width: 100%;
+  }
+}
