@@ -7,9 +7,6 @@ import { classnames } from '../../../helpers';
 
 import './ImageSlider.scss';
 
-/**
- * TODO: make the slider adaptive for different devices
- */
 const ImageSlider = ({ images }) => {
   const [ activeImage, setActiveImage ] = useState(images[0]);
 
