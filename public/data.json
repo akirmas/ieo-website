@@ -1,5 +1,26 @@
 {
   "template": {
+    "header": {
+      "logo": {
+        "src": "images/logo/ieo.png",
+        "alt": "ieo website"
+      },
+      "navigation": [
+        {
+          "name": "אודות",
+          "to": ""
+        }, {
+          "name": "תחומי פעילות",
+          "to": ""
+        }, {
+          "name": "פתרונות",
+          "to": ""
+        }, {
+          "name": "מוצרים",
+          "to": ""
+        }
+      ]
+    },
     "footer": {
       "navigation": {
         "אודות": [
