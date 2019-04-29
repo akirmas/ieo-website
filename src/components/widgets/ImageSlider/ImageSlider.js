@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 import Image from '../../shared/Image';
@@ -7,10 +7,27 @@ import { classnames } from '../../../helpers';
 
 import './ImageSlider.scss';
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
   const [ activeImage, setActiveImage ] = useState(images[0]);
-
+  
   const isActive = (image) => Object.is(image, activeImage);
+
+  const nextSlide = (images) => {
+    const findActiveId = images.findIndex(isActive);      
+    const nextActive = (findActiveId === images.length - 1 ) ? 0 : findActiveId + 1;
+
+    setActiveImage(images[nextActive]);
+  };
+
+  useEffect(() => {
+    if (slideshow) {
+      const interval = setInterval(() => {
+        nextSlide(images);
+      }, delay);
+
+      return () => clearInterval(interval);
+    }
+  }, [images, activeImage]);
 
   const renderControl = (image) => {
     const onActiveImageChange = () => setActiveImage(image);
@@ -57,6 +74,8 @@ ImageSlider.propTypes = {
       alt: PropTypes.string,
     })
   ).isRequired,
+  slideshow: PropTypes.bool,
+  delay: PropTypes.number,
 };
 
 export default ImageSlider;
