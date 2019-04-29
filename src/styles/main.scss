@@ -1,7 +1,11 @@
 // Utils
+@import 'utils/mixins';
 @import 'utils/variables';
 @import 'utils/helpers';
 
 // Base
 @import 'base/typography';
 @import 'base/reboot';
+
+// Components
+@import 'components/copyright';
