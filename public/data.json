@@ -155,6 +155,31 @@
             "variant": "yellow"
           }
         ]
+      },
+      "jobOffer": {
+        "title": "IEO-לעבוד ב",
+        "text": "שפע משרות במגוון רחב של תחומים, פרויקטים ייחודיים ופורצי דרך, בחברות המובילות במשק. בוא להתקדם איתנו",
+        "find": "מצא משרות",
+        "banner": "images/other/job-offer.png",
+        "contacts": [
+          {
+            "type": "youtube",
+            "icon": "images/social media/alpha/youtube.png",
+            "link": ""
+          }, {
+            "type": "linkedin",
+            "icon": "images/social media/alpha/linkedin.png",
+            "link": ""
+          }, {
+            "type": "facebook",
+            "icon": "images/social media/alpha/facebook.png",
+            "link": ""
+          }, {
+            "type": "twitter",
+            "icon": "images/social media/alpha/twitter.png",
+            "link": ""
+          }
+        ]
       }
     }
   },
