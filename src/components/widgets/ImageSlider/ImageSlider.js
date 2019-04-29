@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import PropTypes from 'prop-types';
 
 import Image from '../../shared/Image';
@@ -12,22 +12,22 @@ const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
   
   const isActive = (image) => Object.is(image, activeImage);
 
-  const nextSlide = (images) => {
-    const findActiveId = images.findIndex(isActive);      
+  const getNextSlide = useCallback((images, activeImage) => {
+    const findActiveId = images.findIndex(image => Object.is(image, activeImage));      
     const nextActive = (findActiveId === images.length - 1 ) ? 0 : findActiveId + 1;
 
-    setActiveImage(images[nextActive]);
-  };
+    return images[nextActive];
+  }, []);
 
   useEffect(() => {
     if (slideshow) {
       const interval = setInterval(() => {
-        nextSlide(images);
+        setActiveImage(getNextSlide(images, activeImage));
       }, delay);
 
       return () => clearInterval(interval);
     }
-  }, [images, activeImage]);
+  }, [images, activeImage, delay, slideshow, getNextSlide]);
 
   const renderControl = (image) => {
     const onActiveImageChange = () => setActiveImage(image);
