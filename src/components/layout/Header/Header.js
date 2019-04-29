@@ -25,12 +25,14 @@ const links = [
 
 const Header = ({ variant = 'light' }) => (
   <header className={`header header--theme-${variant}`}>
-    <main className="header__main">
-      <Nav links={links} />
-      <Link to="/">
-        <Image className="logo" src="images/logo/ieo.png" alt="ieo website logo" />
-      </Link>
-    </main>
+    <div className="container container--wide">
+      <main className="header__main">
+        <Nav links={links} />
+        <Link to="/">
+          <Image className="logo" src="images/logo/ieo.png" alt="ieo website logo" />
+        </Link>
+      </main>
+    </div>
   </header>
 );
 
