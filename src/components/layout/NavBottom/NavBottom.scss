@@ -1,0 +1,28 @@
+.nav-bottom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding-bottom: 3.5rem;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__group-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  &__link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #6A6A6A;
+    margin-top: 0.5rem;
+  }
+}
