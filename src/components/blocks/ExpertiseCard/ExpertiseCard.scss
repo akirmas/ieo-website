@@ -1,0 +1,78 @@
+.expertise-card {
+  
+  &__main {
+    height: 263px;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(35deg, #FF004E, #FF00FF);
+
+    &--theme-pink {
+      background: linear-gradient(35deg, #00FF19, #0033FF);
+    }
+    &--theme-green {
+      background: linear-gradient(35deg, #D700FF, #4300FF);
+    }
+    &--theme-violet {
+      background: linear-gradient(35deg, #D700FF, #4300FF);
+    }
+    &--theme-blue {
+      background: linear-gradient(35deg, #00DCFF, #3A00FF);
+    }
+    &--theme-dark-red {
+      background: linear-gradient(35deg, #002BFF, #FF2300);
+    }
+
+    &--theme-yellow {
+      background: linear-gradient(35deg, #E8FF00, #FF3D00);
+    }
+  }
+
+  &__title,
+  &__text {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(#000000, 0.16);
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    width: 100%;
+  }
+
+  &__picture {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1.125rem;
+    padding-bottom: 1.25rem;
+  }
+
+  &__text {
+    max-width: 364px;
+    width: 100%;
+    padding-bottom: 0;
+
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    font-weight: bold;
+    color: #474747;
+  }
+}
