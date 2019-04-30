@@ -16,6 +16,7 @@ import './styles/main.scss';
 const Index = ({ data }) => (
   <ErrorBoundary>
     <AppProvider value={data}>
+      {/* TODO: configure independent routing */}
       <Router basename={process.env.PUBLIC_URL}>
         <App />
       </Router>
