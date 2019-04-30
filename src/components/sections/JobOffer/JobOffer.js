@@ -24,7 +24,7 @@ JobOffer.propTypes = {
     find: PropTypes.string.isRequired,
     banner: PropTypes.string.isRequired,
   }).isRequired,
-  contacts: PropTypes.object.isRequired,
+  contacts: PropTypes.array.isRequired,
 };
 
 export default JobOffer;

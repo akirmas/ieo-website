@@ -20,7 +20,7 @@ const SocialMedia = ({ contacts }) => {
 };
 
 SocialMedia.propTypes = {
-  contacts: PropTypes.object.isRequired,
+  contacts: PropTypes.array.isRequired,
 };
 
 export default SocialMedia;
