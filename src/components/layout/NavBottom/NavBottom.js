@@ -6,7 +6,7 @@ import './NavBottom.scss';
 
 const NavBottom = ({ config }) => {
   const renderNavGroup = ([ title, links ]) => (
-    <div className="nav-bottom__group">
+    <div key={title} className="nav-bottom__group">
       <h5 className="nav-bottom__group-title">{title}</h5>
       {links.map(renderLink)}
     </div>
