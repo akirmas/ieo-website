@@ -8,7 +8,7 @@
       "navigation": [
         {
           "name": "אודות",
-          "to": ""
+          "to": "/about/key-roles"
         }, {
           "name": "תחומי פעילות",
           "to": ""
