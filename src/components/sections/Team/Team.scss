@@ -1,0 +1,9 @@
+.team {
+  background-color: #fff;
+
+  &__main {
+    display: grid;
+    grid-gap: 1.875rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
