@@ -13,15 +13,10 @@ import { resolvePath } from './helpers';
 
 import './styles/main.scss';
 
-const website = window.location.pathname.replace(/[^/]+$/, '');
-
-// eslint-disable-next-line no-console
-console.log(website);
-
 const Index = ({ data }) => (
   <ErrorBoundary>
     <AppProvider value={data}>
-      <Router basename={website}>
+      <Router basename={process.env.PUBLIC_URL}>
         <App />
       </Router>
     </AppProvider>

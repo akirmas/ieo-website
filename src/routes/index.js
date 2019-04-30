@@ -11,7 +11,7 @@ const routes = [
     exact: true,
     render: withProps(Home),
   }, {
-    path: '/key-roles',
+    path: '/about/key-roles',
     render: withProps(KeyRoles),
   }
 ];
