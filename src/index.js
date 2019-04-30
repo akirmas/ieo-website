@@ -16,7 +16,7 @@ import './styles/main.scss';
 const Index = ({ data }) => (
   <ErrorBoundary>
     <AppProvider value={data}>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={window.location.search}>
         <App />
       </Router>
     </AppProvider>
