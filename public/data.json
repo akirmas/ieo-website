@@ -183,29 +183,31 @@
           }
         ]
       }
+    },
+    "keyRoles": {
+      "team": [
+        {
+          "photo": "images/team/cmo.png",
+          "position": "cmo",
+          "name": "עידו לישנר",
+          "info": "מומחה בעל שם עולמי בעולם הפרסום האינטרנטי. "
+        }, {
+          "photo": "images/team/cfo.png",
+          "position": "cfo",
+          "name": "רועי רחמני",
+          "info": "מומחה בפתרונות תשלום. "
+        }, {
+          "photo": "images/team/cto.png",
+          "position": "cto",
+          "name": "יעד מור ",
+          "info": "מומחה אבטחת מידע. "
+        }, {
+          "photo": "images/team/ceo.png",
+          "position": "ceo",
+          "name": "שפי גולדברג",
+          "info": "יזם ובעל ניסיון בהקמת 7 חברות מצליחות."
+        } 
+      ]
     }
-  },
-  "team": [
-    {
-      "photo": "images/team/cmo.png",
-      "position": "cmo",
-      "name": "עידו לישנר",
-      "info": "מומחה בעל שם עולמי בעולם הפרסום האינטרנטי. "
-    }, {
-      "photo": "images/team/cfo.png",
-      "position": "cfo",
-      "name": "רועי רחמני",
-      "info": "מומחה בפתרונות תשלום. "
-    }, {
-      "photo": "images/team/cto.png",
-      "position": "cto",
-      "name": "יעד מור ",
-      "info": "מומחה אבטחת מידע. "
-    }, {
-      "photo": "images/team/ceo.png",
-      "position": "ceo",
-      "name": "שפי גולדברג",
-      "info": "יזם ובעל ניסיון בהקמת 7 חברות מצליחות."
-    } 
-  ]
+  }
 }
