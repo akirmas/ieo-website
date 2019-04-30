@@ -155,30 +155,59 @@
             "variant": "yellow"
           }
         ]
+      },
+      "jobOffer": {
+        "card": {
+          "title": "IEO-לעבוד ב",
+          "text": "שפע משרות במגוון רחב של תחומים, פרויקטים ייחודיים ופורצי דרך, בחברות המובילות במשק. בוא להתקדם איתנו",
+          "find": "מצא משרות",
+          "banner": "images/other/job-offer.png"
+        },
+        "contacts": [
+          {
+            "type": "youtube",
+            "icon": "images/social media/alpha/youtube.png",
+            "link": ""
+          }, {
+            "type": "linkedin",
+            "icon": "images/social media/alpha/linkedin.png",
+            "link": ""
+          }, {
+            "type": "facebook",
+            "icon": "images/social media/alpha/facebook.png",
+            "link": ""
+          }, {
+            "type": "twitter",
+            "icon": "images/social media/alpha/twitter.png",
+            "link": ""
+          }
+        ]
       }
+    },
+    "keyRoles": {
+      "team": [
+        {
+          "photo": "images/team/cmo.png",
+          "position": "cmo",
+          "name": "עידו לישנר",
+          "info": "מומחה בעל שם עולמי בעולם הפרסום האינטרנטי. "
+        }, {
+          "photo": "images/team/cfo.png",
+          "position": "cfo",
+          "name": "רועי רחמני",
+          "info": "מומחה בפתרונות תשלום. "
+        }, {
+          "photo": "images/team/cto.png",
+          "position": "cto",
+          "name": "יעד מור ",
+          "info": "מומחה אבטחת מידע. "
+        }, {
+          "photo": "images/team/ceo.png",
+          "position": "ceo",
+          "name": "שפי גולדברג",
+          "info": "יזם ובעל ניסיון בהקמת 7 חברות מצליחות."
+        } 
+      ]
     }
-  },
-  "team": [
-    {
-      "photo": "images/team/cmo.png",
-      "position": "cmo",
-      "name": "עידו לישנר",
-      "info": "מומחה בעל שם עולמי בעולם הפרסום האינטרנטי. "
-    }, {
-      "photo": "images/team/cfo.png",
-      "position": "cfo",
-      "name": "רועי רחמני",
-      "info": "מומחה בפתרונות תשלום. "
-    }, {
-      "photo": "images/team/cto.png",
-      "position": "cto",
-      "name": "יעד מור ",
-      "info": "מומחה אבטחת מידע. "
-    }, {
-      "photo": "images/team/ceo.png",
-      "position": "ceo",
-      "name": "שפי גולדברג",
-      "info": "יזם ובעל ניסיון בהקמת 7 חברות מצליחות."
-    } 
-  ]
+  }
 }
