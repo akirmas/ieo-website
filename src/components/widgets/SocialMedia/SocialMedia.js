@@ -7,7 +7,7 @@ import './SocialMedia.scss';
 
 const SocialMedia = ({ contacts }) => {
   const renderSocialMediaLink = (contact) => (
-    <a key={contact.link} className="social-media__link" target="_blank">
+    <a key={contact.type} className="social-media__link" target="_blank">
       <Image className="social-media__icon" src={contact.icon} alt={contact.type} />
     </a>
   ); 
