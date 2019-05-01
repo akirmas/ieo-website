@@ -182,6 +182,73 @@
             "link": ""
           }
         ]
+      },
+      "testimonials": {
+        "title": "לקוחות ממליצים",
+        "items": [
+          {
+            "avatar": "images/testimonials/avatar1.png",
+            "name": "גל ברנרד",
+            "status": "Imminet",
+            "comment": {
+              "title": "תגובה",
+              "text": "text",
+              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רקילך ויגדל במשך השנים"
+            }
+          },
+          {
+            "avatar": "images/testimonials/avatar2.png",
+            "name": "יבגני דיניץ",
+            "status": "Immigration",
+            "comment": {
+              "title": "תגובה",
+              "text": "text",
+              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רקילך ויגדל במשך השנים"
+            }
+          }
+          ,
+          {
+            "avatar": "images/testimonials/avatar3.png",
+            "name": "גל ברנרד",
+            "status": "Immigration",
+            "comment": {
+              "title": "תגובה",
+              "text": "text",
+              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רקילך ויגדל במשך השנים"
+            }
+          },
+          {
+            "avatar": "images/testimonials/avatar1.png",
+            "name": "גל ברנרד",
+            "status": "Imminet",
+            "comment": {
+              "title": "תגובה",
+              "text": "text",
+              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רקילך ויגדל במשך השנים"
+            }
+          },
+          {
+            "avatar": "images/testimonials/avatar2.png",
+            "name": "יבגני דיניץ",
+            "status": "Immigration",
+            "comment": {
+              "title": "תגובה",
+              "text": "text",
+              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רקילך ויגדל במשך השנים"
+            }
+          }
+          ,
+          {
+            "avatar": "images/testimonials/avatar3.png",
+            "name": "גל ברנרד",
+            "status": "Immigration",
+            "comment": {
+              "title": "תגובה",
+              "text": "text",
+              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רקילך ויגדל במשך השנים"
+            }
+          }
+        ]
       }
     },
     "keyRoles": {
