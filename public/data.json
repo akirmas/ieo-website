@@ -274,7 +274,17 @@
           "name": "שפי גולדברג",
           "info": "יזם ובעל ניסיון בהקמת 7 חברות מצליחות."
         } 
-      ]
+      ],
+      "showcase": {
+        "images": [
+          {
+            "src": "images/showcase/key-roles/you create we support.png"
+          },
+          {
+            "src": "images/showcase/key-roles/ui-ux-designing.png"
+          }
+        ]
+      }
     }
   }
 }
