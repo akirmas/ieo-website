@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 0 0.5rem;
 
   background: radial-gradient(#004CFF, #002680);
 
@@ -18,7 +19,7 @@
     font-weight: bold;
 
     display: inline-block;
-    padding: 1rem 3.125rem;
+    padding: 1rem 1.125rem;
     margin-bottom: 3.75rem;
 
     background-color: #000;
@@ -35,5 +36,17 @@
 
     max-width: 242px;
     width: 100%;
+  }
+
+  @media (min-width: 445px) {
+    &__title {
+      padding: 1rem 1.5rem;
+    }
+  }
+
+  @media (min-width: 946px) {
+    &__title {
+      padding: 1rem 3.125rem;
+    }
   }
 }
