@@ -36,7 +36,7 @@ export const renderContent = (content, blockName, variant) =>
             key={value}
             className={classnames(
               `${blockName}__title`,
-              variant ? `${blockName}__text--theme-${variant}` : ''
+              variant ? `${blockName}__title--theme-${variant}` : ''
             )}
           >
             {value}
