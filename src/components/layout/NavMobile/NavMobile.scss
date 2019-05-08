@@ -1,0 +1,29 @@
+.nav-mobile {
+  padding: 1rem;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__group-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.3125rem;
+    font-weight: bold;
+    color: #6A6A6A;
+  }
+
+  &__link {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #6A6A6A;
+    margin-right: 0.5rem;
+  }
+}
