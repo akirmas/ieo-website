@@ -1,0 +1,38 @@
+.article {
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__text-group {
+    max-width: 1000px;
+    width: 100%;
+    padding-bottom: 7.375rem;
+  }
+
+  &__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #2A2A2A;
+  }
+
+  &__contact-button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #181818;
+    padding: 0.875rem 1.6875rem;
+    border-radius: 0.625rem;
+
+    &--theme-purple {
+      background: linear-gradient(20deg, #ED43FF, #7444FE);
+    }
+  }
+}
