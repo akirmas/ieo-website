@@ -22,7 +22,7 @@ const General = ({ match: { params: { name } } }) => {
 };
 
 General.propTypes = {
-  match: PropTypes.shape
+  match: PropTypes.object,
 };
 
 export default General;
