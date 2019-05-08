@@ -6,6 +6,20 @@
     align-items: center;
   }
 
+  &__title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    line-height: 2.6875rem; 
+    font-weight: bold;
+    padding-bottom: 1.8125rem;
+
+    &--theme-blue {
+      background: linear-gradient(30deg, #00DBCC, #8139FF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
   &__text-group {
     max-width: 1000px;
     width: 100%;
@@ -33,6 +47,10 @@
 
     &--theme-purple {
       background: linear-gradient(20deg, #ED43FF, #7444FE);
+    }
+
+    &--theme-blue {
+      background: linear-gradient(20deg, #00DBCC, #9153FF);
     }
   }
 }
