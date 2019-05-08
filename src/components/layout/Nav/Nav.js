@@ -4,11 +4,16 @@ import { NavLink } from 'react-router-dom';
 
 import './Nav.scss';
 
+import { classnames } from '../../../helpers';
+
 const Nav = ({ links }) => {
   const renderNavLink = (link) => (
     <NavLink 
       className="nav__link" 
-      activeClassName="nav__link--active" 
+      activeClassName={classnames(
+        'nav__link--active',
+        link.variant ? `nav__link--${link.variant}` : ''
+      )} 
       key={link.name} 
       to={link.to}
       exact
@@ -29,6 +34,7 @@ Nav.propTypes = {
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       to: PropTypes.string.isRequired,
+      variant: PropTypes.string,
     })
   ).isRequired,
 };
