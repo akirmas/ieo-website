@@ -26,6 +26,7 @@ export const renderText = (text) =>
     ))
     : text;
 
+// TODO: Each child in a list should have a unique "key" prop
 export const renderContent = (content, blockName, variant) => 
   content.map(contentGroup => {
     return Object.entries(contentGroup).map(([ key, value ]) => {
