@@ -1,0 +1,41 @@
+.mobile-menu-switch {
+  display: block;
+  border: none;
+  background-color: transparent;
+  width: 8vw;
+  color: #fff;
+
+  @media (min-width: 576px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4096;
+  
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.5s ease-in-out;
+
+  &--is-hidden {
+    transform: translate3d(100vw, 0, 0);
+  }
+  
+  &--is-visible {
+    transform: translate3d(0vw, 0, 0);
+  }
+
+  @media (min-width: 576px) {
+    & {
+      display: none;
+    }
+  }
+}
