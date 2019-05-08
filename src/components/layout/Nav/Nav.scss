@@ -1,6 +1,12 @@
 .nav {
-  display: flex;
-  align-items: center;
+  display: none;
+
+  @media (min-width: 576px) {
+    & {
+      display: flex;
+      align-items: center;
+    }
+  }
 
   &__link {
     display: inline-block;
@@ -23,8 +29,6 @@
       background: transparent;
     }
 
-    &--active { }
-
     &--yellow::after  {
       background: linear-gradient(45deg, #FF2C00, #FFE600);
     }
@@ -42,7 +46,25 @@
     }
 
     & + & {
-      margin-right: 8.75rem;
+      margin-right: 1.75rem;
+    }
+
+    @media (min-width: 576px) {
+      & + & {
+        margin-right: 3.75rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      & + & {
+        margin-right: 5.75rem;
+      }
+    }
+
+    @media (min-width: 1120px) {
+      & + & {
+        margin-right: 8.75rem;
+      }
     }
   }
 }
