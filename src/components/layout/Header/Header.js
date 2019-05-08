@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import Image from '../../shared/Image';
 import Nav from '../Nav';
+import NavMobile from '../NavMobile';
+import MobileMenu from '../../widgets/MobileMenu';
 
 import './Header.scss';
 
@@ -11,7 +13,10 @@ const Header = ({ variant = 'light', logo, navigation }) => (
   <header className={`header header--theme-${variant}`}>
     <div className="container container--wide">
       <main className="header__main">
-        <Nav links={navigation} />
+        <MobileMenu>
+          <NavMobile config={navigation.mobile} />
+        </MobileMenu>
+        <Nav links={navigation.main} />
         <Link to="/">
           <Image className="logo" {...logo} />
         </Link>
