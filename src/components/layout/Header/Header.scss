@@ -4,6 +4,14 @@
 
   &--theme-light {
     background-color: #fff;
+
+    .nav__link {
+      color: #AEABAB;
+
+      &--active {
+        color: #000000;
+      }
+    }
   }
 
   &--theme-gray {
