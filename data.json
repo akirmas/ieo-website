@@ -5,25 +5,89 @@
         "src": "images/logo/ieo.png",
         "alt": "ieo website"
       },
-      "navigation": [
-        {
-          "name": "אודות",
-          "to": "/about/key-roles",
-          "variant": "yellow"
-        }, {
-          "name": "תחומי פעילות",
-          "to": "/activities/business",
-          "variant": "purple"
-        }, {
-          "name": "פתרונות",
-          "to": "/solutions/development",
-          "variant": "blue"
-        }, {
-          "name": "מוצרים",
-          "to": "/products",
-          "variant": "green"
+      "navigation": {
+        "main": [
+          {
+            "name": "אודות",
+            "to": "/about/key-roles",
+            "variant": "yellow"
+          }, {
+            "name": "תחומי פעילות",
+            "to": "/activities/business",
+            "variant": "purple"
+          }, {
+            "name": "פתרונות",
+            "to": "/solutions/development",
+            "variant": "blue"
+          }, {
+            "name": "מוצרים",
+            "to": "/products",
+            "variant": "green"
+          }
+        ],
+        "mobile": {
+          "אודות": [
+            {
+              "name": "מי אנחנו",
+              "to": ""
+            }, {
+              "name": "תפקידי מפתח",
+              "to": ""
+            }
+          ],
+          "תחומי פעילות": [
+            {
+              "name": "עסקי",
+              "to": ""
+            }, {
+              "name": "פיננסי",
+              "to": ""
+            }, {
+              "name": "אינטרנט",
+              "to": ""
+            }
+          ],
+          "פתרונות": [
+            {
+              "name": "פיתוח",
+              "to": ""
+            }, {
+              "name": "אינטגרציות",
+              "to": ""
+            }, {
+              "name": "פרסום",
+              "to": ""
+            }, {
+              "name": "ניתוח דאטה",
+              "to": ""
+            }, {
+              "name": "תקשורת ו -IT",
+              "to": ""
+            }
+          ],
+          "מוצרים": [
+            {
+              "name": "CRM",
+              "to": ""
+            }, {
+              "name": "דפי נחיתה",
+              "to": ""
+            }, {
+              "name": "אחסון",
+              "to": ""
+            }, {
+              "name": "סקיוריטי",
+              "to": ""
+            }, {
+              "name": "תקשורת",
+              "to": ""
+            }, {
+              "name": "התקנה",
+              "to": ""
+            }
+          ]
         }
-      ]
+      }
     },
     "footer": {
       "navigation": {
