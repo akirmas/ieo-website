@@ -11,7 +11,7 @@ const Nav = ({ links }) => {
       activeClassName="nav__link--active" 
       key={link.name} 
       to={link.to}
-      strict
+      exact
     >
       {link.name}
     </NavLink>
