@@ -8,16 +8,20 @@
       "navigation": [
         {
           "name": "אודות",
-          "to": "/about/key-roles"
+          "to": "/about/key-roles",
+          "variant": "yellow"
         }, {
           "name": "תחומי פעילות",
-          "to": "/activities/business"
+          "to": "/activities/business",
+          "variant": "purple"
         }, {
           "name": "פתרונות",
-          "to": "/solutions/development"
+          "to": "/solutions/development",
+          "variant": "blue"
         }, {
           "name": "מוצרים",
-          "to": "/products"
+          "to": "/products",
+          "variant": "green"
         }
       ]
     },
