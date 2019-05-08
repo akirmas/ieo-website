@@ -11,13 +11,13 @@
           "to": "/about/key-roles"
         }, {
           "name": "תחומי פעילות",
-          "to": ""
+          "to": "/activities/business"
         }, {
           "name": "פתרונות",
-          "to": ""
+          "to": "/solutions/development"
         }, {
           "name": "מוצרים",
-          "to": ""
+          "to": "/products"
         }
       ]
     },
