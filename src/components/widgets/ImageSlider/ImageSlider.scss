@@ -37,7 +37,7 @@
 
   &__control {
     width: 11.979%;
-    height: 0.875rem;
+    height: 0.475rem;
     background-color: #6E6E6E;
     cursor: pointer;
 
@@ -47,6 +47,12 @@
 
     & + & {
       margin-right: 2.1875rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__control {
+      height: 0.875rem;
     }
   }
 }
