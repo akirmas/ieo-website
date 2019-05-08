@@ -9,7 +9,6 @@ import Testimonials from '../components/sections/Testimonials';
 
 import { AppContext } from '../context/app';
 
-
 const Home = () => {
   const { pages: { 
     home: {
