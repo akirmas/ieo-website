@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import { AppContext } from '../context/app';
 
 import Article from '../components/sections/Article';
 import Showcase from '../components/sections/Showcase';
 
-const Business = () => {
+const General = ({ match: { params: { name } } }) => {
   const { pages: { 
-    business: {
+    [name]: {
       article,
       showcase
     }
@@ -20,4 +21,8 @@ const Business = () => {
   );
 };
 
-export default Business;
+General.propTypes = {
+  match: PropTypes.shape
+};
+
+export default General;
