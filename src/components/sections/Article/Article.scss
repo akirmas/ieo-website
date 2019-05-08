@@ -1,3 +1,10 @@
+// TODO: Find a way to make it publicly available.
+@mixin textLinearGradient($angle, $from, $to) {
+  background: linear-gradient($angle, $from, $to);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .article {
 
   &__main {
@@ -14,9 +21,11 @@
     padding-bottom: 1.8125rem;
 
     &--theme-blue {
-      background: linear-gradient(30deg, #00DBCC, #8139FF);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      @include textLinearGradient(30deg, #00DBCC, #8139FF);
+    }
+
+    &--theme-green {
+      @include textLinearGradient(30deg, #00E91F, #00AEC9);
     }
   }
 
@@ -51,6 +60,10 @@
 
     &--theme-blue {
       background: linear-gradient(20deg, #00DBCC, #9153FF);
+    }
+
+    &--theme-green {
+      background: linear-gradient(20deg, #00E91F, #00AEC9);
     }
   }
 }
