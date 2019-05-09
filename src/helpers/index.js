@@ -40,7 +40,7 @@ export const renderContent = (content, blockName, variant) =>
               variant ? `${blockName}__title--theme-${variant}` : ''
             )}
           >
-            {value}
+            {renderText(value)}
           </h3>
         );
       case 'text': 
