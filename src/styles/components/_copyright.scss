@@ -3,7 +3,11 @@
   font-size: 0.875rem;
   line-height: 1.1875rem;
   color: #707070;
-  text-align: right;
+  text-align: center;
 
   padding-bottom: 0;
+
+  @media (min-width: 576px) {
+    text-align: right;
+  }
 }
