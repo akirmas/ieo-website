@@ -15,10 +15,10 @@
 
   &__title {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    line-height: 2.6875rem; 
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
     font-weight: bold;
-    padding-bottom: 1.8125rem;
+    padding: 1.8125rem 0;
     text-align: center;
 
     &--theme-blue {
@@ -33,12 +33,11 @@
   &__text-group {
     max-width: 1000px;
     width: 100%;
-    padding-bottom: 7.375rem;
   }
 
   &__text {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.125rem;
+    font-size: 0.875rem;
     line-height: 1.5rem;
     font-weight: 300;
     text-align: center;
@@ -54,6 +53,7 @@
     background-color: #181818;
     padding: 0.875rem 1.6875rem;
     border-radius: 0.625rem;
+    margin-top: 7.375rem;
 
     &--theme-purple {
       background: linear-gradient(20deg, #ED43FF, #7444FE);
@@ -65,6 +65,28 @@
 
     &--theme-green {
       background: linear-gradient(20deg, #00E91F, #00AEC9);
+    }
+  }
+
+  @media (min-width: 576px) {
+    &__title {
+      font-size: 1.5rem;
+      line-height: 2rem; 
+    }
+
+    &__text {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__title {
+      font-size: 2rem;
+      line-height: 2.6875rem; 
+    }
+
+    &__text {
+      font-size: 1.125rem;
     }
   }
 }
