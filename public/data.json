@@ -4,155 +4,93 @@
       "logo": {
         "src": "images/logo/ieo.png",
         "alt": "ieo website"
-      },
-      "navigation": {
-        "main": [
-          {
-            "name": "אודות",
-            "to": "/about/key-roles",
-            "variant": "yellow"
-          }, {
-            "name": "תחומי פעילות",
-            "to": "/activities/business",
-            "variant": "purple"
-          }, {
-            "name": "פתרונות",
-            "to": "/solutions/development",
-            "variant": "blue"
-          }, {
-            "name": "מוצרים",
-            "to": "/products",
-            "variant": "green"
-          }
-        ],
-        "mobile": {
-          "אודות": [
-            {
-              "name": "מי אנחנו",
-              "to": ""
-            }, {
-              "name": "תפקידי מפתח",
-              "to": ""
-            }
-          ],
-          "תחומי פעילות": [
-            {
-              "name": "עסקי",
-              "to": ""
-            }, {
-              "name": "פיננסי",
-              "to": ""
-            }, {
-              "name": "אינטרנט",
-              "to": ""
-            }
-          ],
-          "פתרונות": [
-            {
-              "name": "פיתוח",
-              "to": ""
-            }, {
-              "name": "אינטגרציות",
-              "to": ""
-            }, {
-              "name": "פרסום",
-              "to": ""
-            }, {
-              "name": "ניתוח דאטה",
-              "to": ""
-            }, {
-              "name": "תקשורת ו -IT",
-              "to": ""
-            }
-          ],
-          "מוצרים": [
-            {
-              "name": "CRM",
-              "to": ""
-            }, {
-              "name": "דפי נחיתה",
-              "to": ""
-            }, {
-              "name": "אחסון",
-              "to": ""
-            }, {
-              "name": "סקיוריטי",
-              "to": ""
-            }, {
-              "name": "תקשורת",
-              "to": ""
-            }, {
-              "name": "התקנה",
-              "to": ""
-            }
-          ]
-        }
       }
     },
     "footer": {
-      "navigation": {
+      "copyright": "© כל הזכויות שמורות לנס טכנולוגיות 2019 דרישות החוק ושמירה על פרטיות"
+    },
+    "navigation": {
+      "main": [
+        {
+          "name": "אודות",
+          "to": "/about/key-roles",
+          "variant": "yellow"
+        }, {
+          "name": "תחומי פעילות",
+          "to": "/activities/business",
+          "variant": "purple"
+        }, {
+          "name": "פתרונות",
+          "to": "/solutions/development",
+          "variant": "blue"
+        }, {
+          "name": "מוצרים",
+          "to": "/products",
+          "variant": "green"
+        }
+      ],
+      "sub": {
         "אודות": [
           {
             "name": "מי אנחנו",
-            "to": ""
+            "to": "/about/who-we-are"
           }, {
             "name": "תפקידי מפתח",
-            "to": ""
+            "to": "/about/key-roles"
           }
         ],
         "תחומי פעילות": [
           {
             "name": "עסקי",
-            "to": ""
+            "to": "/activities/business"
           }, {
             "name": "פיננסי",
-            "to": ""
+            "to": "/activities/finance"
           }, {
             "name": "אינטרנט",
-            "to": ""
+            "to": "/activities/internet"
           }
         ],
         "פתרונות": [
           {
             "name": "פיתוח",
-            "to": ""
+            "to": "/solutions/development"
           }, {
             "name": "אינטגרציות",
-            "to": ""
+            "to": "/solutions/integration"
           }, {
             "name": "פרסום",
-            "to": ""
+            "to": "/solutions/advertising"
           }, {
             "name": "ניתוח דאטה",
-            "to": ""
+            "to": "/solutions/data-analysis"
           }, {
             "name": "תקשורת ו -IT",
-            "to": ""
+            "to": "/solutions/communications-&-it"
           }
         ],
         "מוצרים": [
           {
             "name": "CRM",
-            "to": ""
+            "to": "/products/crm"
           }, {
             "name": "דפי נחיתה",
-            "to": ""
+            "to": "/products/landing-pages"
           }, {
             "name": "אחסון",
-            "to": ""
+            "to": "/products/storage"
           }, {
             "name": "סקיוריטי",
-            "to": ""
+            "to": "/products/security"
           }, {
             "name": "תקשורת",
-            "to": ""
+            "to": "/products/connection"
           }, {
             "name": "התקנה",
-            "to": ""
+            "to": "/products/setting"
           }
         ]
-      },
-      "copyright": "© כל הזכויות שמורות לנס טכנולוגיות 2019 דרישות החוק ושמירה על פרטיות"
+      }
     }
   },
   "pages": {
@@ -444,11 +382,11 @@
         ]
       }
     },
-    "about": {
+    "who-we-are": {
       "article": {
         "variant": "",
         "banner": {
-          "src": "images/pages/about/hero.png",
+          "src": "images/pages/who-we-are/hero.png",
           "alt": ""
         },
         "content": [
@@ -482,7 +420,7 @@
             "src": "images/pages/showcase-common.png"
           },
           {
-            "src": "images/pages/about/showcase-one.png"
+            "src": "images/pages/who-we-are/showcase-one.png"
           }
         ]
       }
