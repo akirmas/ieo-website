@@ -1,9 +1,21 @@
 .showcase {
-  padding-top: 10.75rem;
+  padding-top: 5.75rem;
   padding-bottom: 2.375rem;
 
   &__image-list {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (min-width: 468px) {
+    & {
+      padding-top: 10.75rem;
+    }
+
+    &__image-list {
+      flex-direction: initial;
+    } 
   }
 }

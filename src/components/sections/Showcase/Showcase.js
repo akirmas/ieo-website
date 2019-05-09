@@ -7,19 +7,23 @@ import './Showcase.scss';
 
 const Showcase = ({ images }) => {
   const renderImage = (image) => (
-    <Image
+    <figure
       key={image.src}
-      className="showcase__image"
-      {...image}
-    />
+      className="showcase__image-wrapper"
+    >
+      <Image
+        className="showcase__image"
+        {...image}
+      />
+    </figure>
   );
 
   return (
     <section className="showcase">
       <div className="container container--normal">
-        <figure className="showcase__image-list">
+        <div className="showcase__image-list">
           {images && images.map(renderImage)}
-        </figure>
+        </div>
       </div>
     </section>
   );
