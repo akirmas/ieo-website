@@ -25,7 +25,7 @@
           "variant": "blue"
         }, {
           "name": "מוצרים",
-          "to": "/products",
+          "to": "/products/info",
           "variant": "green"
         }
       ],
@@ -81,6 +81,10 @@
         ],
         "מוצרים": [
           {
+            "name": "מוצרים",
+            "to": "/products/info",
+            "variant": "green"
+          }, {
             "name": "CRM",
             "to": "/products/crm",
             "variant": "green"
@@ -355,11 +359,11 @@
         ]
       }
     },
-    "products": {
+    "info": {
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/products/hero.png",
+          "src": "images/pages/info/hero.png",
           "alt": ""
         },
         "content": [
@@ -393,7 +397,7 @@
             "src": "images/pages/showcase-common.png"
           },
           {
-            "src": "images/pages/products/showcase-one.png"
+            "src": "images/pages/info/showcase-one.png"
           }
         ]
       }
