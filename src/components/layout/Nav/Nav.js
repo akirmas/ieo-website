@@ -7,6 +7,12 @@ import './Nav.scss';
 import { classnames } from '../../../helpers';
 
 const Nav = ({ links }) => {
+  const isActive = (to) => (_, { pathname }) => {
+    const category = pathname.replace(/^\//, '').split('/')[0];
+
+    return to.startsWith(`/${category}`);
+  }; 
+
   const renderNavLink = (link) => (
     <NavLink 
       className="nav__link" 
@@ -16,7 +22,7 @@ const Nav = ({ links }) => {
       )} 
       key={link.name} 
       to={link.to}
-      exact
+      isActive={isActive(link.to)}
     >
       {link.name}
     </NavLink>
