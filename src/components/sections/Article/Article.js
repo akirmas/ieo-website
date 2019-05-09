@@ -8,20 +8,22 @@ import { renderContent, classnames } from '../../../helpers';
 
 import './Article.scss';
 
-const Article = ({ variant, banner, content }) => (
+const Article = ({ variant, banner, content, contact }) => (
   <section className="article">
     <div className="container container--normal">
       <main className="article__main">
         <Image className="article__banner" {...banner} />
         {renderContent(content, 'article', variant)}
-        <Button 
-          className={classnames(
-            'article__contact-button',
-            variant ? `article__contact-button--theme-${variant}` : ''
-          )}
-        >
-          ליצירת קשר  
-        </Button>
+        {contact && (
+          <Button 
+            className={classnames(
+              'article__contact-button',
+              variant ? `article__contact-button--theme-${variant}` : ''
+            )}
+          >
+            ליצירת קשר  
+          </Button>
+        )}
       </main>
     </div>
   </section>
@@ -34,6 +36,7 @@ Article.propTypes = {
     alt: PropTypes.string,
   }).isRequired,
   content: PropTypes.array.isRequired,
+  contact: PropTypes.bool.isRequired,
 };
 
 export default Article;
