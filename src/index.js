@@ -3,6 +3,9 @@ import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+
 import App from './App';
 import { AppProvider } from './context/app';
 import ErrorBoundary from './components/services/ErrorBoundary';
@@ -12,6 +15,11 @@ import * as serviceWorker from './serviceWorker';
 import { resolvePath } from './helpers';
 
 import './styles/main.scss';
+
+library.add(
+  faChevronRight,
+  faChevronLeft,
+);
 
 const Index = ({ data }) => (
   <ErrorBoundary>
