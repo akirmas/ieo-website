@@ -8,6 +8,8 @@ import { classnames } from '../../../helpers';
 
 const Nav = ({ links }) => {
   const isActive = (to) => (_, { pathname }) => {
+    if (pathname === '/') return false;
+
     const category = pathname.replace(/^\//, '').split('/')[0];
 
     return to.startsWith(`/${category}`);
