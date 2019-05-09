@@ -19,6 +19,7 @@
     line-height: 2.6875rem; 
     font-weight: bold;
     padding-bottom: 1.8125rem;
+    text-align: center;
 
     &--theme-blue {
       @include textLinearGradient(30deg, #00DBCC, #8139FF);
