@@ -67,11 +67,11 @@
     transform: translateY(-50%);
 
     &--left {
-      right: 100%;
+      left: 0;
     }
 
     &--right {
-      left: 100%;
+      right: 0;
     }
   }
 }
