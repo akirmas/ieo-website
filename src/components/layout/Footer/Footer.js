@@ -9,7 +9,7 @@ const Footer = ({ variant = 'light', navigation, copyright }) => (
   <footer className={`footer footer--theme-${variant}`}>
     <div className="container container--normal">
       <main className="footer__main">
-        <NavBottom config={navigation} />
+        <NavBottom config={navigation.sub} />
         <p className="copyright">{copyright}</p>
       </main>
     </div>

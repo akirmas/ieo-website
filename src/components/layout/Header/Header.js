@@ -14,7 +14,7 @@ const Header = ({ variant = 'light', logo, navigation }) => (
     <div className="container container--wide">
       <main className="header__main">
         <MobileMenu>
-          <NavMobile config={navigation.mobile} />
+          <NavMobile config={navigation.sub} />
         </MobileMenu>
         <Nav links={navigation.main} />
         <Link to="/">
@@ -33,12 +33,7 @@ Header.propTypes = {
     src: PropTypes.string.isRequired,
     alt: PropTypes.string,
   }).isRequired,
-  navigation: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      to: PropTypes.string.isRequired,
-    })
-  ).isRequired,
+  navigation: PropTypes.object.isRequired,
 };
 
 export default Header;

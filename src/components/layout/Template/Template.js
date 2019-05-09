@@ -14,14 +14,15 @@ const Template = ({ children, location }) => {
 
   const { template: {
     header,
-    footer
+    footer,
+    navigation,
   } } = useContext(AppContext);
 
   return (
     <>
-      <Header {...{variant}} {...header} />
+      <Header {...{variant}} {...header} {...{navigation}} />
       {children}
-      <Footer {...{variant}} {...footer} />
+      <Footer {...{variant}} {...footer} {...{navigation}} />
     </>
   );
 };
