@@ -14,9 +14,6 @@ const Slide = ({ avatar, name, status, slideClassName, setSlide, i }) => {
       <div className="testimonials__user-info">
         <h4 className="testimonials__user-info-author">{name}</h4>       
         <span className="testimonials__user-info-status"> {status}</span>
-        <span className="testimonials__user-info-status">
-        מנכ"ל חברת
-        </span>
       </div>
     </div>
   );
