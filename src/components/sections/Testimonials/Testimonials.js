@@ -20,7 +20,7 @@ const Testimonials = ({ title, items }) => {
 
   return (
     <section className="testimonials">
-      <div className="container">
+      <div className="container container--wide">
         <header className="testimonials__header">
           <h3 className="testimonials__title">{title}</h3>
         </header>
