@@ -33,61 +33,77 @@
         "אודות": [
           {
             "name": "מי אנחנו",
-            "to": "/about/who-we-are"
+            "to": "/about/who-we-are",
+            "variant": "yellow"
           }, {
             "name": "תפקידי מפתח",
-            "to": "/about/key-roles"
+            "to": "/about/key-roles",
+            "variant": "yellow"
           }
         ],
         "תחומי פעילות": [
           {
             "name": "עסקי",
-            "to": "/activities/business"
+            "to": "/activities/business",
+            "variant": "purple"
           }, {
             "name": "פיננסי",
-            "to": "/activities/finance"
+            "to": "/activities/finance",
+            "variant": "purple"
           }, {
             "name": "אינטרנט",
-            "to": "/activities/internet"
+            "to": "/activities/internet",
+            "variant": "purple"
           }
         ],
         "פתרונות": [
           {
             "name": "פיתוח",
-            "to": "/solutions/development"
+            "to": "/solutions/development",
+            "variant": "blue"
           }, {
             "name": "אינטגרציות",
-            "to": "/solutions/integration"
+            "to": "/solutions/integration",
+            "variant": "blue"
           }, {
             "name": "פרסום",
-            "to": "/solutions/advertising"
+            "to": "/solutions/advertising",
+            "variant": "blue"
           }, {
             "name": "ניתוח דאטה",
-            "to": "/solutions/data-analysis"
+            "to": "/solutions/data-analysis",
+            "variant": "blue"
           }, {
             "name": "תקשורת ו -IT",
-            "to": "/solutions/communications-&-it"
+            "to": "/solutions/communications-&-it",
+            "variant": "blue"
           }
         ],
         "מוצרים": [
           {
             "name": "CRM",
-            "to": "/products/crm"
+            "to": "/products/crm",
+            "variant": "green"
           }, {
             "name": "דפי נחיתה",
-            "to": "/products/landing-pages"
+            "to": "/products/landing-pages",
+            "variant": "green"
           }, {
             "name": "אחסון",
-            "to": "/products/storage"
+            "to": "/products/storage",
+            "variant": "green"
           }, {
             "name": "סקיוריטי",
-            "to": "/products/security"
+            "to": "/products/security",
+            "variant": "green"
           }, {
             "name": "תקשורת",
-            "to": "/products/connection"
+            "to": "/products/connection",
+            "variant": "green"
           }, {
             "name": "התקנה",
-            "to": "/products/setting"
+            "to": "/products/setting",
+            "variant": "green"
           }
         ]
       }
