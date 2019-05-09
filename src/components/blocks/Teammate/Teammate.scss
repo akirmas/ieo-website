@@ -3,8 +3,8 @@
   text-align: center;
 
   &__position {
-    font-size: 2.4375rem;
-    line-height: 3.25rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
     font-weight: bold;
     text-transform: uppercase;
     color: #FF5700;
@@ -13,10 +13,22 @@
   }
 
   &__text {
-    font-size: 1rem;
-    line-height: 1.375rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     font-weight: 500;
     color: #2A2A2A;
     padding-bottom: 0;
+  }
+
+  @media (min-width: 576px) {
+    &__position {
+      font-size: 2.4375rem;
+      line-height: 3.25rem;
+    }
+
+    &__text {
+      font-size: 1rem;
+      line-height: 1.375rem;
+    }
   }
 }
