@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 
 import { AppContext } from '../context/app';
 
+import NavSub from '../components/layout/NavSub';
 import Team from '../components/sections/Team';
 import Showcase from '../components/sections/Showcase';
 
@@ -17,6 +18,7 @@ const KeyRoles = () => {
 
   return (
     <>
+      <NavSub />
       <Team {...{team}} />
       <Showcase {...{images}} />
     </>
