@@ -9,11 +9,11 @@ const useSlider = (slides, delay = 5000, doSlide = true) => {
     if (doSlide) {
       const interval = setInterval(() => {
         if (goRight) {
-          setCurrentSlide(currentSlide + 1);
-          currentSlide === length - 2 && setGoRight(!goRight);
+          currentSlide < length - 1 && setCurrentSlide(currentSlide + 1);
+          currentSlide === length - 1 && setGoRight(!goRight);
         } else {
-          setCurrentSlide(currentSlide - 1);
-          currentSlide === 1 && setGoRight(!goRight);
+          currentSlide && setCurrentSlide(currentSlide - 1);
+          currentSlide === 0 && setGoRight(!goRight);
         }
       }, delay);
 
