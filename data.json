@@ -208,7 +208,7 @@
         "title": "לקוחות ממליצים",
         "items": [
           {
-            "avatar": "images/testimonials/avatar1.png",
+            "avatar": "images/testimonials/avatar2.png",
             "name": "יבגני דיניץ",
             "status": "מנכ\"ל חברת Immigration",
             "comment": {
@@ -217,16 +217,7 @@
               "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רק ילך ויגדל במשך השנים\"."
             }
           }, {
-            "avatar": "images/testimonials/avatar2.png",
-            "name": "יבגני דיניץ",
-            "status": "מנכ\"ל חברת Immigration",
-            "comment": {
-              "title": "תגובה",
-              "text": "\"ברצוני להביע הערכהרבה לחברת IEO הנפלאה על העבודההמשותפת ועל כל התמיכה במהלך זמן העבודה יחד. עלי לציין במיוחד את מחלקות המדיהוהפיתוח, אשר נותנות לנו תמיכה מושלמת בכל שעות היממה ובזכותם חברתינו מגיעה כלחודש להישגים בלתי רגילים. פשוט תענוג לעבוד עם אנשים כל כך מנוסים ומקצועיים.בתור מישהו שעבד עם לא מעט ספקי שירות בכל תחומים שחברת IEO מספקת עבורינו בשנה האחרונה, אני מופתע בכל פעם מחדש  ממהירות הביצוע של כל המשימהוכמובן רמת   הביצוע, שהיא לא פחות ממשולמת.",
-              "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רק ילך  ויגדל במשך השנים\"."
-            }
-          }, {
-            "avatar": "images/testimonials/avatar3.png",
+            "avatar": "images/testimonials/avatar1.png",
             "name": "גל ברנרד",
             "status": "מנכ\"ל חברת Imminet",
             "comment": {
@@ -277,7 +268,7 @@
       "article": {
         "variant": "purple",
         "banner": {
-          "src": "images/pages/business/hero.png",
+          "src": "images/pages/business/hero.gif",
           "alt": ""
         },
         "content": [
@@ -318,7 +309,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/development/hero.png",
+          "src": "images/pages/development/hero.gif",
           "alt": ""
         },
         "content": [
@@ -358,7 +349,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/info/hero.png",
+          "src": "images/pages/info/hero.gif",
           "alt": ""
         },
         "content": [
@@ -401,7 +392,7 @@
       "article": {
         "variant": "",
         "banner": {
-          "src": "images/pages/who-we-are/hero.png",
+          "src": "images/pages/who-we-are/hero.gif",
           "alt": ""
         },
         "content": [
@@ -444,7 +435,7 @@
       "article": {
         "variant": "purple",
         "banner": {
-          "src": "images/pages/finance/hero.png",
+          "src": "images/pages/finance/hero.gif",
           "alt": ""
         },
         "content": [
@@ -484,7 +475,7 @@
       "article": {
         "variant": "purple",
         "banner": {
-          "src": "images/pages/internet/hero.png",
+          "src": "images/pages/internet/hero.gif",
           "alt": ""
         },
         "content": [
@@ -530,7 +521,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/integration/hero.png",
+          "src": "images/pages/integration/hero.gif",
           "alt": ""
         },
         "content": [
@@ -567,7 +558,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/advertising/hero.png",
+          "src": "images/pages/advertising/hero.gif",
           "alt": ""
         },
         "content": [
@@ -606,7 +597,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/data-analysis/hero.png",
+          "src": "images/pages/data-analysis/hero.gif",
           "alt": ""
         },
         "content": [
@@ -649,7 +640,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/communications-&-it/hero.png",
+          "src": "images/pages/communications-&-it/hero.gif",
           "alt": ""
         },
         "content": [
@@ -694,7 +685,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/crm/hero.png",
+          "src": "images/pages/crm/hero.gif",
           "alt": ""
         },
         "content": [
@@ -734,7 +725,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/landing-pages/hero.png",
+          "src": "images/pages/landing-pages/hero.gif",
           "alt": ""
         },
         "content": [
@@ -773,7 +764,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/storage/hero.png",
+          "src": "images/pages/storage/hero.gif",
           "alt": ""
         },
         "content": [
@@ -814,7 +805,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/security/hero.png",
+          "src": "images/pages/security/hero.gif",
           "alt": ""
         },
         "content": [
@@ -855,7 +846,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/connection/hero.png",
+          "src": "images/pages/connection/hero.gif",
           "alt": ""
         },
         "content": [
@@ -902,7 +893,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/setting/hero.png",
+          "src": "images/pages/setting/hero.gif",
           "alt": ""
         },
         "content": [
