@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Slide from './Slide';
+import { relative } from 'path';
 
 const Slider = ({ items, currentSlide, setSlide }) => {
   const slideClassName = i =>
@@ -14,7 +15,8 @@ const Slider = ({ items, currentSlide, setSlide }) => {
       <div
         className={'testimonials__slider'}
         style={{
-          transform: `translateX(calc(${(100 / 3) * currentSlide - 100 / 3}%))`
+          transform: `translateX(calc(${(100 * currentSlide)}%))`,          
+          left: `calc(${-(100 * currentSlide) + ((100 / 3) * currentSlide - 100 / 3)}%)`
         }}
       >
         {items.map(({ avatar, name, status }, i) => {
