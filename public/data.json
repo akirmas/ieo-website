@@ -7,6 +7,13 @@
       }
     },
     "footer": {
+      "contacts": [
+        {
+          "type": "facebook",
+          "icon": "images/social media/beta/facebook.png",
+          "link": "https://www.facebook.com/ieoil1/"
+        }
+      ],
       "copyright": "© כל הזכויות שמורות לנס טכנולוגיות 2019 דרישות החוק ושמירה על פרטיות"
     },
     "navigation": {
@@ -191,21 +198,9 @@
         },
         "contacts": [
           {
-            "type": "youtube",
-            "icon": "images/social media/alpha/youtube.png",
-            "link": ""
-          }, {
-            "type": "linkedin",
-            "icon": "images/social media/alpha/linkedin.png",
-            "link": ""
-          }, {
             "type": "facebook",
             "icon": "images/social media/alpha/facebook.png",
-            "link": ""
-          }, {
-            "type": "twitter",
-            "icon": "images/social media/alpha/twitter.png",
-            "link": ""
+            "link": "https://www.facebook.com/ieoil1/"
           }
         ]
       },
