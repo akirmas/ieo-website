@@ -5,11 +5,12 @@ import Image from '../../shared/Image';
 
 import './SocialMedia.scss';
 
-const SocialMedia = ({ contacts }) => {
+const SocialMedia = ({ contacts, justify = 'flex-start' }) => {
   const renderSocialMediaLink = (contact) => (
     <a 
       key={contact.type} 
-      className="social-media__link" 
+      className="social-media__link"
+      href={contact.link} 
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -22,7 +23,12 @@ const SocialMedia = ({ contacts }) => {
   ); 
 
   return (
-    <div className="social-media">
+    <div 
+      className="social-media"
+      style={{
+        justifyContent: justify
+      }}  
+    >
       {contacts.map(renderSocialMediaLink)}
     </div>
   );
@@ -30,6 +36,14 @@ const SocialMedia = ({ contacts }) => {
 
 SocialMedia.propTypes = {
   contacts: PropTypes.array.isRequired,
+  justify: PropTypes.oneOf([
+    'flex-start',
+    'flex-end',
+    'center',
+    'space-between',
+    'space-around',
+    'space-evenly',
+  ]),
 };
 
 export default SocialMedia;
