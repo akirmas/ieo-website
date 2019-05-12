@@ -277,7 +277,7 @@
       "article": {
         "variant": "purple",
         "banner": {
-          "src": "images/pages/business/hero.png",
+          "src": "images/pages/business/hero.gif",
           "alt": ""
         },
         "content": [
@@ -318,7 +318,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/development/hero.png",
+          "src": "images/pages/development/hero.gif",
           "alt": ""
         },
         "content": [
@@ -358,7 +358,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/info/hero.png",
+          "src": "images/pages/info/hero.gif",
           "alt": ""
         },
         "content": [
@@ -401,7 +401,7 @@
       "article": {
         "variant": "",
         "banner": {
-          "src": "images/pages/who-we-are/hero.png",
+          "src": "images/pages/who-we-are/hero.gif",
           "alt": ""
         },
         "content": [
@@ -444,7 +444,7 @@
       "article": {
         "variant": "purple",
         "banner": {
-          "src": "images/pages/finance/hero.png",
+          "src": "images/pages/finance/hero.gif",
           "alt": ""
         },
         "content": [
@@ -484,7 +484,7 @@
       "article": {
         "variant": "purple",
         "banner": {
-          "src": "images/pages/internet/hero.png",
+          "src": "images/pages/internet/hero.gif",
           "alt": ""
         },
         "content": [
@@ -530,7 +530,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/integration/hero.png",
+          "src": "images/pages/integration/hero.gif",
           "alt": ""
         },
         "content": [
@@ -567,7 +567,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/advertising/hero.png",
+          "src": "images/pages/advertising/hero.gif",
           "alt": ""
         },
         "content": [
@@ -606,7 +606,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/data-analysis/hero.png",
+          "src": "images/pages/data-analysis/hero.gif",
           "alt": ""
         },
         "content": [
@@ -649,7 +649,7 @@
       "article": {
         "variant": "blue",
         "banner": {
-          "src": "images/pages/communications-&-it/hero.png",
+          "src": "images/pages/communications-&-it/hero.gif",
           "alt": ""
         },
         "content": [
@@ -694,7 +694,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/crm/hero.png",
+          "src": "images/pages/crm/hero.gif",
           "alt": ""
         },
         "content": [
@@ -734,7 +734,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/landing-pages/hero.png",
+          "src": "images/pages/landing-pages/hero.gif",
           "alt": ""
         },
         "content": [
@@ -773,7 +773,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/storage/hero.png",
+          "src": "images/pages/storage/hero.gif",
           "alt": ""
         },
         "content": [
@@ -814,7 +814,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/security/hero.png",
+          "src": "images/pages/security/hero.gif",
           "alt": ""
         },
         "content": [
@@ -855,7 +855,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/connection/hero.png",
+          "src": "images/pages/connection/hero.gif",
           "alt": ""
         },
         "content": [
@@ -902,7 +902,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/setting/hero.png",
+          "src": "images/pages/setting/hero.gif",
           "alt": ""
         },
         "content": [
