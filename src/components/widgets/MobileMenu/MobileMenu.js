@@ -20,6 +20,7 @@ const MobileMenu = ({ children }) => {
         onClick={toggle}  
       >
         <FontAwesomeIcon 
+          className="mobile-menu-switch__icon"
           icon={isVisible ? faTimes : faBars} 
           size="lg"  
         />
@@ -29,7 +30,14 @@ const MobileMenu = ({ children }) => {
           'mobile-menu',
           `mobile-menu--is-${isVisible ? 'visible' : 'hidden'}`
         )}
+        onClick={toggle}
       >
+        <Button className="mobile-menu__close">
+          <FontAwesomeIcon 
+            icon={faTimes} 
+            size="lg"  
+          />
+        </Button>
         {children}
       </section>
     </>

@@ -33,6 +33,14 @@
     transform: translate3d(0vw, 0, 0);
   }
 
+  &__close {
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    z-index: 4096;
+    background-color: transparent;
+  }
+
   @media (min-width: 576px) {
     & {
       display: none;
