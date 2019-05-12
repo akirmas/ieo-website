@@ -1,4 +1,8 @@
 .testimonials {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+  padding: 3rem 0 4.25rem 0;
+
   &__title {
     font-size: 1.875rem;
     line-height: 2.4375rem;
@@ -12,10 +16,10 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 1.25px 0;
   }
 
   &__slider-area {
+    padding-top: 1.9375rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -71,7 +75,6 @@
     flex-shrink: 0;
     background: #fefefe;
     color: #484848;
-    padding: 1.56rem 0;
     transition: 0.5s;
     box-shadow: 5px 20px 40px rgba(0, 0, 0, 0);
     overflow: hidden;
@@ -84,6 +87,7 @@
   }
 
   &__user-avatar {
+    padding-top: 0.25rem;
     margin-right: 0;
     flex-shrink: 0;
   }
@@ -104,7 +108,6 @@
   &__user-info-author {
     font-size: 1.25rem;
     font-weight: bold;
-    //Roboto;
   }
 
   &__user-info-status {
@@ -120,23 +123,24 @@
   }
 
   &__content-box-title {
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 3.3125rem;
-    // roboto;
   }
 
   &__content-box-text {
     font-size: 0.875rem;
-    line-height: 1.875rem;
-    //  roboto;
+    line-height: 1.1875rem;
+    padding-bottom: 0;
   }
 
   &__content-box-afterwords {
     font-size: 0.875rem;
     line-height: 1.875rem;
     margin-top: 1.6875rem;
+    padding-bottom: 0;
   }
 }
 
@@ -184,7 +188,6 @@
     &__user-info-author {
       font-size: 1rem;
       font-weight: bold;
-      //Roboto;
     }
 
     &__user-info-status {
@@ -201,11 +204,7 @@
     }
 
     &__user-avatar {
-      margin: 1.93rem 1.93rem 1.93rem 1rem;
-    }
-
-    &__user-info {
-      margin-right: 1.69rem;
+      margin: 0.5rem 1rem;
     }
 
     &__content-box {
@@ -215,7 +214,6 @@
     &__user-info-author {
       font-size: 1.25rem;
       font-weight: bold;
-      //Roboto;
     }
 
     &__user-info-status {

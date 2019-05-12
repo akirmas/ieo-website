@@ -1,12 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Image from '../../shared/Image';
+
 const ContentBox = ({ text, title, afterwords }) => {
   return (
     <div className="testimonials__content-box">
+      <Image 
+        className="testimonials__content-box-icon" 
+        src="images/testimonials/icon.png" 
+      />
       <h3 className="testimonials__content-box-title">{title}</h3>
-      <p className="testimonials__content-box-story">{text}</p>
-      <span className="testimonials__content-box-afterwords">{afterwords}</span>
+      <p className="testimonials__content-box-text">{text}</p>
+      <p className="testimonials__content-box-afterwords">{afterwords}</p>
     </div>
   );
 };
