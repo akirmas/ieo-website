@@ -11,7 +11,7 @@ const JobOffer = ({ card, contacts }) => (
     <div className="container container--normal">
       <main className="job-offer__main">
         <OfferCard {...card} />
-        <SocialMedia {...{contacts}} />
+        <SocialMedia {...{contacts}} justify="center" />
       </main>
     </div>
   </section>
