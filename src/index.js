@@ -8,6 +8,7 @@ import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons
 
 import App from './App';
 import { AppProvider } from './context/app';
+import ScrollToTop from './components/services/ScrollToTop';
 import ErrorBoundary from './components/services/ErrorBoundary';
 
 import * as serviceWorker from './serviceWorker';
@@ -25,7 +26,9 @@ const Index = ({ data }) => (
   <ErrorBoundary>
     <AppProvider value={data}>
       <Router basename={process.env.PUBLIC_URL}>
-        <App />
+        <ScrollToTop>
+          <App />
+        </ScrollToTop>
       </Router>
     </AppProvider>
   </ErrorBoundary>
