@@ -8,7 +8,6 @@
     position: relative;
 
     padding: 0 2.5rem;
-    margin-top: 2.5rem;
   }
 
   &__link {
@@ -86,6 +85,7 @@
   @media (min-width: 576px) {
     &__main {
       grid-template-columns: repeat(3, 1fr);
+      margin-top: 2.5rem;
     }
 
     &__link {
