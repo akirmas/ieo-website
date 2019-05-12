@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -24,7 +24,6 @@ library.add(
 const Index = ({ data }) => (
   <ErrorBoundary>
     <AppProvider value={data}>
-      {/* TODO: configure independent routing */}
       <Router basename={process.env.PUBLIC_URL}>
         <App />
       </Router>
