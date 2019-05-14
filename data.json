@@ -12,6 +12,10 @@
           "type": "facebook",
           "icon": "images/social media/beta/facebook.png",
           "link": "https://www.facebook.com/ieoil1/"
+        }, {
+          "type": "linkedin",
+          "icon": "images/social media/beta/linkedin.png",
+          "link": "https://www.linkedin.com/company/ieo-il/"
         }
       ],
       "copyright": "© כל הזכויות שמורות לנס טכנולוגיות 2019 דרישות החוק ושמירה על פרטיות"
@@ -20,7 +24,7 @@
       "main": [
         {
           "name": "אודות",
-          "to": "/about/key-roles",
+          "to": "/about/who-we-are",
           "variant": "yellow"
         }, {
           "name": "תחומי פעילות",
@@ -201,6 +205,10 @@
             "type": "facebook",
             "icon": "images/social media/alpha/facebook.png",
             "link": "https://www.facebook.com/ieoil1/"
+          }, {
+            "type": "linkedin",
+            "icon": "images/social media/alpha/linkedin.png",
+            "link": "https://www.linkedin.com/company/ieo-il/"
           }
         ]
       },
