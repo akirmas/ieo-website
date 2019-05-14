@@ -17,7 +17,9 @@ const NavSub = ({ location: { pathname } }) => {
 
   const links = Object
     .values(sub)
-    .filter(array => array.find(object => object['to'] === pathname))[0];
+    .filter(array => array.find(object => object['to'] === pathname))[0]
+    .slice()
+    .reverse();
 
   const activeLinkIndex = links.findIndex(link => link['to'] === pathname);
 

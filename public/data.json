@@ -24,7 +24,7 @@
       "main": [
         {
           "name": "אודות",
-          "to": "/about/key-roles",
+          "to": "/about/who-we-are",
           "variant": "yellow"
         }, {
           "name": "תחומי פעילות",
