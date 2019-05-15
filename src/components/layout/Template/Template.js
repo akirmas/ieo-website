@@ -21,7 +21,9 @@ const Template = ({ children, location }) => {
   return (
     <>
       <Header {...{variant}} {...header} {...{navigation}} />
-      {children}
+      <main className="main">
+        {children}
+      </main>
       <Footer {...{variant}} {...footer} {...{navigation}} />
     </>
   );
