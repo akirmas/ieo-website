@@ -1,0 +1,49 @@
+.not-found {
+  &__main {
+    text-align: center;
+    padding-top: 4.5rem 0;
+  } 
+
+  &__title,
+  &__note {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    line-height: 1.75rem; 
+    font-weight: bold;
+    padding: 1.8125rem 0;
+    text-align: center;
+  }
+
+  &__note {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    color: #2A2A2A;
+  }
+
+  @media (min-width: 576px) {
+    &__title {
+      font-size: 1.5rem;
+      line-height: 2rem; 
+    }
+
+    &__text {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__title {
+      font-size: 2rem;
+      line-height: 2.6875rem; 
+    }
+
+    &__text {
+      font-size: 1.125rem;
+    }
+  }
+}
