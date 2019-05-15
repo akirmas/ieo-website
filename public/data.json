@@ -949,6 +949,20 @@
           }
         ]
       }
+    },
+    "contact-us": {
+      "title": "צור קשר",
+      "subtitle": [
+        "על מנת לקבל מידע נוסף על המוצרים ושירותים שלנו ו/א",
+        "במידה ויש לך שאלה או הערה נא למלא פרטים"
+      ],
+      "hero": {
+        "src": "images/pages/contact-us/hero.png",
+        "alt": "צור קשר"
+      },
+      "form": {
+        "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
+      }
     }
   }
 }
