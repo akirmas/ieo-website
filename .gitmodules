@@ -1,0 +1,3 @@
+[submodule "src/components/vendors"]
+	path = src/components/vendors
+	url = https://github.com/akirmas/react-components.git
