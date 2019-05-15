@@ -5,6 +5,7 @@ import { withProps } from '../hocs';
 const Home = lazy(() => import('../pages/Home'));
 const KeyRoles = lazy(() => import('../pages/KeyRoles'));
 const General = lazy(() => import('../pages/General'));
+const ContactUs = lazy(() => import('../pages/ContactUs'));
 const NotFound = lazy(() => import('../pages/NotFound'));
 
 /**
@@ -18,6 +19,9 @@ const routes = [
   }, {
     path: '/about/key-roles',
     render: withProps(KeyRoles),
+  }, {
+    path: '/contact-us',
+    render: withProps(ContactUs),
   }, {
     path: '/:category?/:name',
     render: withProps(General),
