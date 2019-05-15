@@ -47,7 +47,7 @@
     color: #2A2A2A;
   }
 
-  &__contact-button {
+  &__contact-link {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.25rem;
     line-height: 1.6875rem;
@@ -57,6 +57,7 @@
     padding: 0.875rem 1.6875rem;
     border-radius: 0.625rem;
     margin-top: 7.375rem;
+    display: block;
 
     &--theme-purple {
       background: linear-gradient(20deg, #ED43FF, #7444FE);

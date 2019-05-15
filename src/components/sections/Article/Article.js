@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import Image from '../../shared/Image';
-import Button from '../../shared/Button';
 
 import { renderContent, classnames } from '../../../helpers';
 
@@ -15,14 +15,15 @@ const Article = ({ variant, banner, content, contact }) => (
         <Image className="article__banner" {...banner} />
         {renderContent(content, 'article', variant)}
         {contact && (
-          <Button 
+          <Link 
             className={classnames(
-              'article__contact-button',
-              variant ? `article__contact-button--theme-${variant}` : ''
+              'article__contact-link',
+              variant ? `article__contact-link--theme-${variant}` : ''
             )}
+            to="/contact-us"
           >
             ליצירת קשר  
-          </Button>
+          </Link>
         )}
       </main>
     </div>
