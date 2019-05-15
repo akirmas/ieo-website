@@ -6,13 +6,19 @@ import NavSub from '../components/layout/NavSub';
 import Article from '../components/sections/Article';
 import Showcase from '../components/sections/Showcase';
 
+import NotFound from '../pages/NotFound';
+
 const General = ({ match: { params: { name } } }) => {
-  const { pages: { 
-    [name]: {
-      article,
-      showcase
-    }
-  } } = useContext(AppContext);
+  const { pages } = useContext(AppContext);
+
+  if ( ! pages[name]) {
+    return <NotFound />;
+  }
+
+  const { [name]: {
+    article,
+    showcase
+  } } = pages;
 
   return (
     <>
