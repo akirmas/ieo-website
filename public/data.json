@@ -24,7 +24,7 @@
       "main": [
         {
           "name": "אודות",
-          "to": "/about/who-we-are",
+          "to": "/about/key-roles",
           "variant": "yellow"
         }, {
           "name": "תחומי פעילות",
@@ -128,11 +128,11 @@
     "home": {
       "mainSlider": [
         {
-          "src": "images/main slider/first.png"
+          "src": "images/slider/slides/1.png"
         }, {
-          "src": "images/main slider/second.png"
+          "src": "images/slider/slides/2.png"
         }, {
-          "src": "images/main slider/third.png"
+          "src": "images/slider/slides/3.png"
         }
       ],
       "whoWeAre": {
@@ -161,54 +161,20 @@
         "title": "תחומי מומחיות:",
         "cards": [
           {
-            "title": "דיוק: ",
-            "image": "images/expertise/accuracy.png",
-            "text": "פרסום ממוקד מטרה וקהל יעד",
-            "variant": "pink"
+            "title": "שיווק דיגיטלי",
+            "image": "images/expertise/digital-marketing.png"
           }, {
-            "title": "חדשנות וטכנולוגיה:",
-            "image": "images/expertise/innovations.png",
-            "text": "פתרונות אחסון וטלפוניה מתקדמים",
-            "variant": "green"
+            "title": "IT פתרונות",
+            "image": "images/expertise/it-solutions.png"
           }, {
-            "title": "השמה לכל התפקידים: ירד",
-            "image": "images/expertise/placement.png",
-            "text": "",
-            "variant": "violet"
+            "title": "הקמה, פיתוח ותפעול",
+            "image": "images/expertise/constr-dev-oper.png"
           }, {
-            "title": "הקמה, פיתוח ותפעול: ",
-            "image": "images/expertise/dev-des-man.png",
-            "text": "התמחות בפיתוח אתרים, עיצוב גרפי וסנכרון מערכות הטמעה ויישם מערכות CRM מתקדמות מבוססות Bitrix",
-            "variant": "blue"
+            "title": "אבטחת מידע",
+            "image": "images/expertise/information-security.png"
           }, {
-            "title": "אבטחת מידע:",
-            "image": "images/expertise/data-security.png",
-            "text": "אבטחת מידע מקצה לקצה בעזרת מערכות חדשניות",
-            "variant": "dark-red"
-          }, {
-            "title": "פתרונות פיננסיים: ",
-            "image": "images/expertise/financial-solutions.png",
-            "text": "פתרונות ייעוץ ולווי מקיפים",
-            "variant": "yellow"
-          }
-        ]
-      },
-      "jobOffer": {
-        "card": {
-          "title": "IEO-לעבוד ב",
-          "text": "שפע משרות במגוון רחב של תחומים, פרויקטים ייחודיים ופורצי דרך, בחברות המובילות במשק. בוא להתקדם איתנו",
-          "find": "מצא משרות",
-          "banner": "images/other/job-offer.png"
-        },
-        "contacts": [
-          {
-            "type": "facebook",
-            "icon": "images/social media/alpha/facebook.png",
-            "link": "https://www.facebook.com/ieoil1/"
-          }, {
-            "type": "linkedin",
-            "icon": "images/social media/alpha/linkedin.png",
-            "link": "https://www.linkedin.com/company/ieo-il/"
+            "title": "פתרונות סליקה",
+            "image": "images/expertise/cleaning-solutions.png"
           }
         ]
       },
@@ -216,7 +182,7 @@
         "title": "לקוחות ממליצים",
         "items": [
           {
-            "avatar": "images/testimonials/avatar3.png",
+            "avatar": "images/testimonials/avatars/3.png",
             "name": "רבקה גולדברג",
             "status": "מנכ\"לית חברת Amaya",
             "comment": {
@@ -233,7 +199,7 @@
               "afterwords": ""
             }
           }, {
-            "avatar": "images/testimonials/avatar2.png",
+            "avatar": "images/testimonials/avatars/2.png",
             "name": "יבגני דיניץ",
             "status": "מנכ\"ל חברת Immigration",
             "comment": {
@@ -242,7 +208,7 @@
               "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רק ילך ויגדל במשך השנים\"."
             }
           }, {
-            "avatar": "images/testimonials/avatar1.png",
+            "avatar": "images/testimonials/avatars/1.png",
             "name": "גל ברנרד",
             "status": "מנכ\"ל חברת Imminet",
             "comment": {
@@ -281,10 +247,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/key-roles/showcase-one.png"
+            "src": "images/pages/key-roles/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -322,10 +287,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/business/showcase-one.png"
+            "src": "images/pages/business/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -362,10 +326,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/development/showcase-one.png"
+            "src": "images/pages/development/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -405,10 +368,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/info/showcase-one.png"
+            "src": "images/pages/info/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -448,10 +410,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/who-we-are/showcase-one.png"
+            "src": "images/pages/who-we-are/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -485,13 +446,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/finance/showcase-one.png"
-          },
-          {
-            "src": "images/pages/finance/showcase-two.png"
+            "src": "images/pages/finance/1.png"
+          }, {
+            "src": "images/pages/finance/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -531,13 +490,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/internet/showcase-one.png"
-          },
-          {
-            "src": "images/pages/internet/showcase-two.png"
+            "src": "images/pages/internet/1.png"
+          }, {
+            "src": "images/pages/internet/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -571,10 +528,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/integration/showcase-one.png"
+            "src": "images/pages/integration/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -607,13 +563,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/advertising/showcase-one.png"
-          },
-          {
-            "src": "images/pages/advertising/showcase-two.png"
+            "src": "images/pages/advertising/1.png"
+          }, {
+            "src": "images/pages/advertising/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -650,13 +604,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/data-analysis/showcase-one.png"
-          },
-          {
-            "src": "images/pages/data-analysis/showcase-two.png"
+            "src": "images/pages/data-analysis/1.png"
+          }, {
+            "src": "images/pages/data-analysis/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -695,13 +647,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/communications-&-it/showcase-one.png"
-          },
-          {
-            "src": "images/pages/communications-&-it/showcase-two.png"
+            "src": "images/pages/communications-&-it/1.png"
+          }, {
+            "src": "images/pages/communications-&-it/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -735,13 +685,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/crm/showcase-one.png"
-          },
-          {
-            "src": "images/pages/crm/showcase-two.png"
+            "src": "images/pages/crm/1.png"
+          }, {
+            "src": "images/pages/crm/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -774,13 +722,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/landing-pages/showcase-one.png"
-          },
-          {
-            "src": "images/pages/landing-pages/showcase-two.png"
+            "src": "images/pages/landing-pages/1.png"
+          }, {
+            "src": "images/pages/landing-pages/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -815,13 +761,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/storage/showcase-one.png"
-          },
-          {
-            "src": "images/pages/storage/showcase-two.png"
+            "src": "images/pages/storage/1.png"
+          }, {
+            "src": "images/pages/storage/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -859,10 +803,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/security/showcase-one.png"
+            "src": "images/pages/security/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -903,13 +846,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/connection/showcase-one.png"
-          }, 
-          {
-            "src": "images/pages/connection/showcase-two.png"
+            "src": "images/pages/connection/1.png"
+          }, {
+            "src": "images/pages/connection/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -942,10 +883,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/setting/showcase-one.png"
+            "src": "images/pages/setting/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }

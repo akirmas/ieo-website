@@ -9,8 +9,8 @@ import MobileMenu from '../../widgets/MobileMenu';
 
 import './Header.scss';
 
-const Header = ({ variant = 'light', logo, navigation }) => (
-  <header className={`header header--theme-${variant}`}>
+const Header = ({ logo, navigation }) => (
+  <header className="header">
     <div className="container container--wide">
       <main className="header__main">
         <MobileMenu>
@@ -26,9 +26,6 @@ const Header = ({ variant = 'light', logo, navigation }) => (
 );
 
 Header.propTypes = {
-  variant: PropTypes.oneOf([
-    'gray', 'light'
-  ]),
   logo: PropTypes.shape({
     src: PropTypes.string.isRequired,
     alt: PropTypes.string,

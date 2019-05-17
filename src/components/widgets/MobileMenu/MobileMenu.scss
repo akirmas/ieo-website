@@ -5,6 +5,10 @@
   width: 8vw;
   color: #fff;
 
+  &__icon {
+    color: #707070;
+  }
+
   @media (min-width: 576px) {
     & {
       display: none;

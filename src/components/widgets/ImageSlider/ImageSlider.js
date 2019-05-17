@@ -10,7 +10,10 @@ import './ImageSlider.scss';
 const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
   const [ activeImage, setActiveImage ] = useState(images[0]);
   
-  const isActive = (image) => Object.is(image, activeImage);
+  const isActive = useCallback(
+    (image) => Object.is(image, activeImage),
+    [activeImage]
+  );
 
   const getNextSlide = useCallback((images, activeImage) => {
     const findActiveId = images.findIndex(image => Object.is(image, activeImage));      
@@ -29,31 +32,24 @@ const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
     }
   }, [images, activeImage, delay, slideshow, getNextSlide]);
 
-  const renderControl = (image) => {
-    const onActiveImageChange = () => setActiveImage(image);
+  const renderControl = (image) => (
+    <div 
+      key={image.src}
+      className={classnames(
+        'image-slider__control', 
+        isActive(image) ? 'image-slider__control--is-active' : '')}
+    />
+  );
 
-    return (
-      <div 
-        key={image.src}
-        className={classnames(
-          'image-slider__control', 
-          isActive(image) ? 'image-slider__control--is-active' : '')}
-        onClick={onActiveImageChange} 
-      />
-    );
-  };
-
-  const renderImages = (image) => {
-    return (
-      <Image 
-        key={image.src}
-        className={classnames(
-          'image-slider__image',
-          'image-slider__image--is-'.concat(isActive(image) ? 'active' : 'hidden'))}
-        {...image}
-      />
-    );
-  };
+  const renderImages = (image) => (
+    <Image 
+      key={image.src}
+      className={classnames(
+        'image-slider__image',
+        'image-slider__image--is-'.concat(isActive(image) ? 'active' : 'hidden'))}
+      {...image}
+    />
+  );
 
   return (
     <div className="image-slider">

@@ -1,24 +1,5 @@
 .footer {
   padding-top: 1.75rem;
   padding-bottom: 1.25rem;
-
-  &--theme-gray {
-    background-color: #242424;
-
-    .nav-bottom__link:hover {
-      color: #fff;
-    }
-  }
-
-  &--theme-light {
-    background-color: #fff;
-
-    .nav-bottom__group-title {
-      color: #6A6A6A;
-    }
-
-    .nav-bottom__link:hover {
-      color: #bbb;
-    }
-  }
+  background-color: #fff;
 }

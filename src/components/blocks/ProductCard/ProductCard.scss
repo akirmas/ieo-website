@@ -5,12 +5,10 @@
   align-items: center;
   padding: 0 0.5rem;
 
-  background: radial-gradient(#004CFF, #002680);
-
   &__title,
   &__text {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    color: #000;
   }
 
   &__title {
@@ -21,8 +19,6 @@
     display: inline-block;
     padding: 1rem 1.125rem;
     margin-bottom: 3.75rem;
-
-    background-color: #000;
   }
 
   &__text {

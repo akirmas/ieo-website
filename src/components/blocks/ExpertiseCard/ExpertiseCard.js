@@ -7,15 +7,12 @@ import './ExpertiseCard.scss';
 
 const ExpertiseCard = ({ card }) => (
   <div className="expertise-card">
-    <main className={`expertise-card__main expertise-card__main--theme-${card.variant}`}>
+    <main className="expertise-card__main">
       <h4 className="expertise-card__title">{card.title}</h4>
       <figure className="expertise-card__picture">
         <Image className="expertise-card__image" src={card.image} alt={card.title} />
       </figure>
     </main>
-    <footer className="expertise-card__footer">
-      <p className="expertise-card__text">{card.text}</p>
-    </footer>
   </div>
 );
 
