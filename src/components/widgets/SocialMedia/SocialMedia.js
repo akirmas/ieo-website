@@ -5,7 +5,7 @@ import Image from '../../shared/Image';
 
 import './SocialMedia.scss';
 
-const SocialMedia = ({ contacts, justify = 'flex-start' }) => {
+const SocialMedia = ({ contacts }) => {
   const renderSocialMediaLink = (contact) => (
     <a 
       key={contact.type} 
@@ -23,12 +23,7 @@ const SocialMedia = ({ contacts, justify = 'flex-start' }) => {
   ); 
 
   return (
-    <div 
-      className="social-media"
-      style={{
-        justifyContent: justify
-      }}  
-    >
+    <div className="social-media">
       {contacts.map(renderSocialMediaLink)}
     </div>
   );
@@ -36,14 +31,6 @@ const SocialMedia = ({ contacts, justify = 'flex-start' }) => {
 
 SocialMedia.propTypes = {
   contacts: PropTypes.array.isRequired,
-  justify: PropTypes.oneOf([
-    'flex-start',
-    'flex-end',
-    'center',
-    'space-between',
-    'space-around',
-    'space-evenly',
-  ]),
 };
 
 export default SocialMedia;
