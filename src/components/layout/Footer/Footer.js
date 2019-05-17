@@ -8,7 +8,7 @@ import './Footer.scss';
 
 const Footer = ({ navigation, contacts, copyright }) => (
   <footer className="footer">
-    <div className="container container--normal">
+    <div className="container container--wide">
       <main className="footer__main">
         <NavBottom config={navigation.sub} />
         <SocialMedia {...{contacts}} />
