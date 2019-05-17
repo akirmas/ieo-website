@@ -193,25 +193,6 @@
           }
         ]
       },
-      "jobOffer": {
-        "card": {
-          "title": "IEO-לעבוד ב",
-          "text": "שפע משרות במגוון רחב של תחומים, פרויקטים ייחודיים ופורצי דרך, בחברות המובילות במשק. בוא להתקדם איתנו",
-          "find": "מצא משרות",
-          "banner": "images/other/job-offer.png"
-        },
-        "contacts": [
-          {
-            "type": "facebook",
-            "icon": "images/social media/alpha/facebook.png",
-            "link": "https://www.facebook.com/ieoil1/"
-          }, {
-            "type": "linkedin",
-            "icon": "images/social media/alpha/linkedin.png",
-            "link": "https://www.linkedin.com/company/ieo-il/"
-          }
-        ]
-      },
       "testimonials": {
         "title": "לקוחות ממליצים",
         "items": [
