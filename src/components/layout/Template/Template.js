@@ -6,8 +6,6 @@ import Footer from '../Footer';
 
 import { AppContext } from '../../../context/app';
 
-import './Template.scss';
-
 const Template = ({ children }) => {
   const { template: {
     header,
