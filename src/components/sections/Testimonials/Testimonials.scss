@@ -1,6 +1,5 @@
 .testimonials {
   font-family: 'Roboto', sans-serif;
-  background-color: #eee;
   padding: 3rem 0 4.25rem 0;
 
   &__title {
@@ -73,16 +72,16 @@
     text-align: center;
     align-items: center;
     flex-shrink: 0;
-    background: #fefefe;
+    background: #fff;
     color: #484848;
     transition: 0.5s;
+    border-radius: 0.625rem;
     box-shadow: 5px 20px 40px rgba(0, 0, 0, 0);
     overflow: hidden;
     cursor: pointer;
 
     &--is-active {
-      background: #2e2e2e;
-      color: #ffffff;
+      border: 2px solid #BFC1FF;
     }
   }
 
@@ -115,11 +114,12 @@
   }
 
   &__content-box {
-    width: 80%;
+    width: 100%;
     margin: 0.625rem auto 0;
-    background: #2e2e2e;
-    color: #ffffff;
+    background-color: #ffffff;
     padding: 1.5625rem;
+    border: 2px solid #BFC1FF;
+    border-radius: 0.625rem;
   }
 
   &__content-box-title {
@@ -177,7 +177,6 @@
 
     &__content-box {
       margin-top: 0.625rem;
-      width: 80%;
     }
 
     &__content-box {
