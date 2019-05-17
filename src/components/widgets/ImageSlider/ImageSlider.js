@@ -29,19 +29,14 @@ const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
     }
   }, [images, activeImage, delay, slideshow, getNextSlide]);
 
-  const renderControl = (image) => {
-    const onActiveImageChange = () => setActiveImage(image);
-
-    return (
-      <div 
-        key={image.src}
-        className={classnames(
-          'image-slider__control', 
-          isActive(image) ? 'image-slider__control--is-active' : '')}
-        onClick={onActiveImageChange} 
-      />
-    );
-  };
+  const renderControl = (image) => (
+    <div 
+      key={image.src}
+      className={classnames(
+        'image-slider__control', 
+        isActive(image) ? 'image-slider__control--is-active' : '')}
+    />
+  );
 
   const renderImages = (image) => {
     return (
