@@ -24,7 +24,7 @@
       "main": [
         {
           "name": "אודות",
-          "to": "/about/who-we-are",
+          "to": "/about/key-roles",
           "variant": "yellow"
         }, {
           "name": "תחומי פעילות",
@@ -247,10 +247,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/key-roles/showcase-one.png"
+            "src": "images/pages/key-roles/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -288,10 +287,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/business/showcase-one.png"
+            "src": "images/pages/business/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -328,10 +326,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/development/showcase-one.png"
+            "src": "images/pages/development/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -371,10 +368,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/info/showcase-one.png"
+            "src": "images/pages/info/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -414,10 +410,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/who-we-are/showcase-one.png"
+            "src": "images/pages/who-we-are/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -451,13 +446,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/finance/showcase-one.png"
-          },
-          {
-            "src": "images/pages/finance/showcase-two.png"
+            "src": "images/pages/finance/1.png"
+          }, {
+            "src": "images/pages/finance/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -497,13 +490,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/internet/showcase-one.png"
-          },
-          {
-            "src": "images/pages/internet/showcase-two.png"
+            "src": "images/pages/internet/1.png"
+          }, {
+            "src": "images/pages/internet/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -537,10 +528,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/integration/showcase-one.png"
+            "src": "images/pages/integration/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -573,13 +563,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/advertising/showcase-one.png"
-          },
-          {
-            "src": "images/pages/advertising/showcase-two.png"
+            "src": "images/pages/advertising/1.png"
+          }, {
+            "src": "images/pages/advertising/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -616,13 +604,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/data-analysis/showcase-one.png"
-          },
-          {
-            "src": "images/pages/data-analysis/showcase-two.png"
+            "src": "images/pages/data-analysis/1.png"
+          }, {
+            "src": "images/pages/data-analysis/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -661,13 +647,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/communications-&-it/showcase-one.png"
-          },
-          {
-            "src": "images/pages/communications-&-it/showcase-two.png"
+            "src": "images/pages/communications-&-it/1.png"
+          }, {
+            "src": "images/pages/communications-&-it/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -701,13 +685,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/crm/showcase-one.png"
-          },
-          {
-            "src": "images/pages/crm/showcase-two.png"
+            "src": "images/pages/crm/1.png"
+          }, {
+            "src": "images/pages/crm/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -740,13 +722,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/landing-pages/showcase-one.png"
-          },
-          {
-            "src": "images/pages/landing-pages/showcase-two.png"
+            "src": "images/pages/landing-pages/1.png"
+          }, {
+            "src": "images/pages/landing-pages/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -781,13 +761,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/storage/showcase-one.png"
-          },
-          {
-            "src": "images/pages/storage/showcase-two.png"
+            "src": "images/pages/storage/1.png"
+          }, {
+            "src": "images/pages/storage/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -825,10 +803,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/security/showcase-one.png"
+            "src": "images/pages/security/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -869,13 +846,11 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/connection/showcase-one.png"
-          }, 
-          {
-            "src": "images/pages/connection/showcase-two.png"
+            "src": "images/pages/connection/1.png"
+          }, {
+            "src": "images/pages/connection/2.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
@@ -908,10 +883,9 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/showcase-common.png"
-          },
-          {
-            "src": "images/pages/setting/showcase-one.png"
+            "src": "images/pages/setting/1.png"
+          }, {
+            "src": "images/pages/you-create-we-support.png"
           }
         ]
       }
