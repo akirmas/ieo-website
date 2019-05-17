@@ -17,8 +17,10 @@
     display: grid;
     grid-gap: 1.875rem;
     grid-template-columns: repeat(1, 1fr);
-    border: 0 1.25rem 1.25rem 0;
+    border-radius: 0 0 1.25rem 1.25rem;
     padding-bottom: 6.25rem;
+    margin-bottom: 6.25rem;
+    box-shadow: 0 1.25rem 2.5rem rgba(#000, 0.2);
 
     @media (min-width: 445px) {
       & {
