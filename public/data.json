@@ -197,7 +197,7 @@
         "title": "לקוחות ממליצים",
         "items": [
           {
-            "avatar": "images/testimonials/avatar3.png",
+            "avatar": "images/testimonials/avatars/3.png",
             "name": "רבקה גולדברג",
             "status": "מנכ\"לית חברת Amaya",
             "comment": {
@@ -214,7 +214,7 @@
               "afterwords": ""
             }
           }, {
-            "avatar": "images/testimonials/avatar2.png",
+            "avatar": "images/testimonials/avatars/2.png",
             "name": "יבגני דיניץ",
             "status": "מנכ\"ל חברת Immigration",
             "comment": {
@@ -223,7 +223,7 @@
               "afterwords": "אין לי ספק ששיתוף הפעולה בינינו רק ילך ויגדל במשך השנים\"."
             }
           }, {
-            "avatar": "images/testimonials/avatar1.png",
+            "avatar": "images/testimonials/avatars/1.png",
             "name": "גל ברנרד",
             "status": "מנכ\"ל חברת Imminet",
             "comment": {
