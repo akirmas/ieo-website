@@ -18,7 +18,7 @@
     font-size: 1rem;
     line-height: 1.3125rem;
     font-weight: bold;
-    color: #fff;
+    color: #6A6A6A;
   }
 
   &__link {
@@ -28,6 +28,10 @@
     color: #6A6A6A;
     margin-top: 0.5rem;
     transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: #bbb;
+    }
   }
 
   @media (min-width: 576px) {

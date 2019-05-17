@@ -14,10 +14,15 @@
     font-size: 1rem;
     line-height: 1.375rem;
     font-weight: bold;
-    color: #fff;
+    color: #AEABAB;
     transition: color 0.3s ease-in-out;
     
     position: relative;
+
+    &:hover,
+    &--active {
+      color: #000000;
+    }
 
     &::after {
       content: "";
