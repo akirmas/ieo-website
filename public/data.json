@@ -128,11 +128,11 @@
     "home": {
       "mainSlider": [
         {
-          "src": "images/main slider/first.png"
+          "src": "images/slider/slides/1.png"
         }, {
-          "src": "images/main slider/second.png"
+          "src": "images/slider/slides/2.png"
         }, {
-          "src": "images/main slider/third.png"
+          "src": "images/slider/slides/3.png"
         }
       ],
       "whoWeAre": {
