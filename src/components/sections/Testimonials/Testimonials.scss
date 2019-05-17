@@ -76,7 +76,7 @@
     color: #484848;
     transition: 0.5s;
     border-radius: 0.625rem;
-    box-shadow: 5px 20px 40px rgba(0, 0, 0, 0);
+    box-shadow: 5px 20px 40px rgba(#000, 0.14);
     overflow: hidden;
     cursor: pointer;
 
@@ -120,6 +120,7 @@
     padding: 1.5625rem;
     border: 2px solid #BFC1FF;
     border-radius: 0.625rem;
+    box-shadow: 5px 20px 40px rgba(#000, 0.22);
   }
 
   &__content-box-title {
@@ -159,7 +160,6 @@
       padding-left: 0.3125rem;
       width: 24.78%;
       margin: calc(25.66% / 6);
-      box-shadow: 8px 8px 17px 0px rgba(0, 0, 0, 0.55);
 
       &:hover {
         transform: scale(1.25);
