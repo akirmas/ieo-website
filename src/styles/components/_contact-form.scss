@@ -1,4 +1,6 @@
 .contact-form {
+  grid-row: 2;
+
   &__title {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
@@ -125,6 +127,12 @@
 
     .Submit {
       order: 4;
+    }
+  }
+
+  @media (min-width: 822px) {
+    & {
+      grid-row: initial;
     }
   }
 }
