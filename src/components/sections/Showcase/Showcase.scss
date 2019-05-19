@@ -11,11 +11,21 @@
 
   @media (min-width: 468px) {
     & {
-      padding-top: 10.75rem;
+      padding-top: 8.375rem;
     }
 
     &__image-list {
       flex-direction: initial;
-    } 
+    }
+    
+    &__image-wrapper:not(:first-of-type) {
+      padding-right: 4.1875rem;
+    }
+  }
+
+  @media (min-width: 756px) {
+    &__image-wrapper:not(:first-of-type) {
+      padding-right: 8.375rem;
+    }
   }
 }
