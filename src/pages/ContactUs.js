@@ -32,7 +32,7 @@ const ContactUs = () => {
           {(loading === false) && (
             <form className="contact-form">
               <header className="contact-form__header">
-                <h4 className="contact-form__title">{form.title}</h4>
+                <h4 className="contact-form__title">{data.title}</h4>
               </header>
               <main className="contact-form__main">
                 <Form inputs={data.inputs} />
