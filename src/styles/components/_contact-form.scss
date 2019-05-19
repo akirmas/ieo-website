@@ -8,13 +8,11 @@
     padding-bottom: 0.5rem;
   }
 
-  // TODO: place the form elements according to the design
   &__main {
     display: flex;
-    flex-direction: column;
-    // display: grid;
-    // grid-gap: 0.5rem 6rem;
-    // grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 2rem;
 
     // react-components:form styles
@@ -26,11 +24,16 @@
       padding-bottom: 0.5rem;
     }
 
-    .Input:not(.Submit):not(.Textarea) {
+    .Label,
+    .Input:not(.Submit):not(.Textarea):not([type="checkbox"]) {
+      flex-basis: 41.4%;
+    }
+
+    .Input:not(.Submit):not(.Textarea):not([type="checkbox"]) {
       height: 40px;
     }
 
-    .Input:not(.Submit) {
+    .Input:not(.Submit):not([type="checkbox"]) {
       border-radius: 10px;
       border: 1px solid #9E9E9E;
       outline: none;
@@ -38,11 +41,20 @@
       margin-bottom: 1.625rem;
     }
 
+    .Input[type="checkbox"] {
+      margin-left: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .Textarea {
+      flex-basis: 100%;
+    }
+
     .Submit {
       cursor: pointer;
       border: none;
-      align-self: center;
       padding: 0.875rem 3rem;
+      margin: 2.8125rem auto 0 auto;
       border-radius: 0.625rem;
       background: linear-gradient(45deg, #55D500, #C9C900);
       font-family: 'Ubuntu', sans-serif;
@@ -50,6 +62,69 @@
       line-height: 1.6875rem;
       font-weight: bold;
       color: #fff;
+    }
+
+    .Label:nth-of-type(8),
+    .Label:nth-of-type(9) {
+      flex-basis: calc(100% - 2rem);
+    }
+
+    .Input:nth-of-type(7),
+    .Input:nth-of-type(8) {
+      flex-basis: 1rem;
+    }
+
+    // react-components:form styles:order
+    .Label:nth-of-type(1),
+    .Label:nth-of-type(2) {
+      order: -8;
+    }
+
+    .Input:nth-of-type(1),
+    .Input:nth-of-type(2) {
+      order: -7;
+    }
+
+    .Label:nth-of-type(3),
+    .Label:nth-of-type(4) {
+      order: -6;
+    }
+
+    .Input:nth-of-type(3),
+    .Input:nth-of-type(4) {
+      order: -5;
+    }
+
+    .Label:nth-of-type(5),
+    .Label:nth-of-type(6) {
+      order: -4;
+    }
+
+    .Input:nth-of-type(5),
+    .Input:nth-of-type(6) {
+      order: -3;
+    }
+
+    .Label:nth-of-type(7) {
+      order: -2;
+    }
+
+    .Textarea {
+      order: -1 !important;
+    }
+
+    .Label:nth-of-type(8),
+    .Input:nth-of-type(8) {
+      order: 1;
+    }
+
+    .Label:nth-of-type(9),
+    .Input:nth-of-type(9) {
+      order: 2;
+    }
+
+    .Submit {
+      order: 4;
     }
   }
 }
