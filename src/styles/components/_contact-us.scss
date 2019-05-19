@@ -38,11 +38,8 @@
 
   &__main {
     display: grid;
-    grid-gap: 10.75rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.6875rem;
     align-items: center;
-
-    padding-bottom: 8.75rem;
   }
 
   @media (min-width: 426px) {
@@ -52,10 +49,23 @@
     }
   }
 
+  @media (min-width: 822px) {
+    &__main {
+      grid-gap: 5.375rem;
+      grid-template-columns: repeat(2, 1fr);
+
+      padding-bottom: 8.75rem;
+    }
+  }
+
   @media (min-width: 992px) {
     &__title {
       font-size: 3.75rem;
       line-height: 5rem;
+    }
+
+    &__main {
+      grid-gap: 10.75rem;
     }
   }
 }
