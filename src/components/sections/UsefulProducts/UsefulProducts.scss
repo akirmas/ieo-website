@@ -20,7 +20,11 @@
     border-radius: 0 0 1.25rem 1.25rem;
     padding-bottom: 6.25rem;
     margin-bottom: 6.25rem;
-    box-shadow: 0 1.25rem 2.5rem rgba(#000, 0.2);
+    transition: box-shadow 0.5s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 1.25rem 2.5rem rgba(#000, 0.2);
+    }
 
     @media (min-width: 445px) {
       & {

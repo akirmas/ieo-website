@@ -4,10 +4,15 @@
     height: 100%;
     padding: 2.5rem;
     border-radius: 1.25rem;
-    box-shadow: 0 1.25rem 2.5rem rgba(#000, 0.2);
+    transition: box-shadow 0.5s ease-in-out; 
 
     display: flex;
     flex-direction: column;
+
+
+    &:hover {
+      box-shadow: 0 1.25rem 2.5rem rgba(#000, 0.2);
+    }
   }
 
   &__title,
