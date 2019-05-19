@@ -32,15 +32,6 @@ const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
     }
   }, [images, activeImage, delay, slideshow, getNextSlide]);
 
-  const renderControl = (image) => (
-    <div 
-      key={image.src}
-      className={classnames(
-        'image-slider__control', 
-        isActive(image) ? 'image-slider__control--is-active' : '')}
-    />
-  );
-
   const renderImages = (image) => (
     <Image 
       key={image.src}
@@ -56,9 +47,6 @@ const ImageSlider = ({ images, slideshow = true, delay = 5000 }) => {
       <figure className="image-slider__preview">
         {images.map(renderImages)}
       </figure>
-      <div className="image-slider__controls">
-        {images.map(renderControl)}
-      </div>
     </div>
   );
 };
