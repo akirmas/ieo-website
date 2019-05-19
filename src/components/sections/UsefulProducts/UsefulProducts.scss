@@ -2,8 +2,8 @@
   background-color: #fff;
 
   &__header {
-    padding-top: 3.125rem;
-    padding-bottom: 3.75rem;
+    padding-top: 5rem;
+    padding-bottom: 3.875rem;
   }
 
   &__title {
@@ -19,7 +19,7 @@
     grid-template-columns: repeat(1, 1fr);
     border-radius: 0 0 1.25rem 1.25rem;
     padding-bottom: 6.25rem;
-    margin-bottom: 6.25rem;
+    margin-bottom: 10rem;
     transition: box-shadow 0.5s ease-in-out;
 
     &:hover {
