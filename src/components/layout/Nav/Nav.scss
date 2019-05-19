@@ -1,11 +1,23 @@
 .nav {
   display: none;
+  width: 100%;
+  max-width: 576px;
 
-  @media (min-width: 576px) {
+  @media (min-width: 664px) {
     & {
       display: flex;
       align-items: center;
     }
+  }
+
+  @media (min-width: 768px) {
+    & {
+      max-width: 698px;
+    }
+  }
+
+  &__item {
+    flex: 1;
   }
 
   &__link {

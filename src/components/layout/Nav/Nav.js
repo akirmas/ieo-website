@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
-import './Nav.scss';
-
 import { classnames } from '../../../helpers';
 
-const Nav = ({ links }) => {
+import './Nav.scss';
+
+const Nav = ({ links, ...restProps }) => {
   const isActive = (to) => (_, { pathname }) => {
     if (pathname === '/') return false;
 
@@ -16,22 +16,29 @@ const Nav = ({ links }) => {
   }; 
 
   const renderNavLink = (link) => (
-    <NavLink 
-      className="nav__link" 
-      activeClassName={classnames(
-        'nav__link--active',
-        link.variant ? `nav__link--${link.variant}` : ''
-      )} 
-      key={link.name} 
-      to={link.to}
-      isActive={isActive(link.to)}
+    <div
+      className="nav__item"
+      key={link.name}
     >
-      {link.name}
-    </NavLink>
+      <NavLink 
+        className="nav__link" 
+        activeClassName={classnames(
+          'nav__link--active',
+          link.variant ? `nav__link--${link.variant}` : ''
+        )}  
+        to={link.to}
+        isActive={isActive(link.to)}
+      >
+        {link.name}
+      </NavLink>
+    </div>
   );
 
   return (
-    <nav className="nav">
+    <nav 
+      className="nav" 
+      {...restProps}
+    >
       {links && links.map(renderNavLink)}
     </nav>
   );
