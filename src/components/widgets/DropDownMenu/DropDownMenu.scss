@@ -31,7 +31,7 @@
   }
 
   &__link {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     line-height: 1.3125rem;
     font-weight: bold;
@@ -40,15 +40,15 @@
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: #AEABAB;
+      color: #aeabab;
     }
   }
 
   @media (min-width: 664px) {
     & {
-      display: initial
+      display: initial;
     }
-  }  
+  }
 
   @media (min-width: 768px) {
     &__nav {
