@@ -17,7 +17,7 @@ ProductCard.propTypes = {
   card: PropTypes.shape({
     title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    text: PropTypes.string.isRequired,
+    text: PropTypes.string
   })
 };
 
