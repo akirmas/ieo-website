@@ -3,7 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.5rem;
+  border-radius: 1.25rem;
+  padding: 1rem 0.5rem;
+  transition: box-shadow 0.5s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 1.25rem 2.5rem rgba(#000, 0.2);
+  }
 
   &__title,
   &__text {
@@ -27,6 +33,7 @@
     text-align: center;
 
     padding-top: 2.875rem;
+    padding-bottom: 0;
 
     max-width: 242px;
     width: 100%;
