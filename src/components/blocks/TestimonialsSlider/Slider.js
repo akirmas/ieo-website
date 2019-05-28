@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Slide from './Slide';
-import { relative } from 'path';
 
 const Slider = ({ items, currentSlide, setSlide }) => {
   const slideClassName = i =>
