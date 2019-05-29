@@ -1,22 +1,28 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import Slide from './Slide';
-import { relative } from 'path';
+import Slide from "./Slide";
+import { relative } from "path";
 
-const Slider = ({ items, currentSlide, setSlide }) => {
+const Slider = ({ items, currentSlide, setSlide, sliderLength }) => {
   const slideClassName = i =>
     `testimonials__slide ${
-      currentSlide === i ? 'testimonials__slide--is-active' : ''
+      currentSlide === i ? "testimonials__slide--is-active" : ""
     }`;
+
+  const removeHoleCurrent =
+    currentSlide === sliderLength - 1
+      ? sliderLength - 2
+      : currentSlide === 0
+      ? 1
+      : currentSlide;
 
   return (
     <div className="testimonials__slider-container">
       <div
-        className={'testimonials__slider'}
+        className={"testimonials__slider"}
         style={{
-          transform: `translateX(calc(${(100 * currentSlide)}%))`,          
-          left: `calc(${-(100 * currentSlide) + ((100 / 3) * currentSlide - 100 / 3)}%)`
+          transform: `translateX(calc(${(100 / 3) * (removeHoleCurrent - 1)}%))`
         }}
       >
         {items.map(({ avatar, name, status }, i) => {
@@ -34,11 +40,9 @@ const Slider = ({ items, currentSlide, setSlide }) => {
 };
 
 Slider.propTypes = {
-  items: PropTypes.arrayOf(
-    PropTypes.object
-  ).isRequired,
+  items: PropTypes.arrayOf(PropTypes.object).isRequired,
   currentSlide: PropTypes.number.isRequired,
-  setSlide: PropTypes.func.isRequired,
+  setSlide: PropTypes.func.isRequired
 };
 
 export default Slider;
