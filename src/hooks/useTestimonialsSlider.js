@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-const useSlider = (slides, delay = 5000, doSlide = true, startSlide = 1) => {
+const useSlider = (slides, delay = 5000, doSlide = true, startSlide = 0) => {
   const [currentSlide, setCurrentSlide] = useState(startSlide);
   const [goRight, setGoRight] = useState(true);
   const length = slides.length;
@@ -32,7 +32,8 @@ const useSlider = (slides, delay = 5000, doSlide = true, startSlide = 1) => {
     currentSlide,
     nextSlide,
     prevSlide,
-    setSlide
+    setSlide,
+    sliderLength: length
   };
 };
 

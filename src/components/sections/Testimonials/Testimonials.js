@@ -1,16 +1,22 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import PropTypes from "prop-types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
-import Slider from '../../blocks/TestimonialsSlider/Slider';
-import ContentBox from '../../blocks/TestimonialsContentBox/ContentBox';
-import useTestimonialsSlider from '../../../hooks/useTestimonialsSlider';
+import Slider from "../../blocks/TestimonialsSlider/Slider";
+import ContentBox from "../../blocks/TestimonialsContentBox/ContentBox";
+import useTestimonialsSlider from "../../../hooks/useTestimonialsSlider";
 
-import './Testimonials.scss';
+import "./Testimonials.scss";
 
 const Testimonials = ({ title, items }) => {
-  const { currentSlide, nextSlide, prevSlide, setSlide } = useTestimonialsSlider(items);
+  const {
+    currentSlide,
+    nextSlide,
+    prevSlide,
+    setSlide,
+    sliderLength
+  } = useTestimonialsSlider(items);
 
   const ButtonControl = ({ go, faShape }) => (
     <button className="testimonials__arrow-btn" onClick={go}>
@@ -29,12 +35,12 @@ const Testimonials = ({ title, items }) => {
             <div className="testimonials__button-container">
               <ButtonControl faShape={faAngleRight} go={prevSlide} />
             </div>
-            <Slider {...{ items, currentSlide, setSlide }} />
+            <Slider {...{ items, currentSlide, setSlide, sliderLength }} />
             <div className="testimonials__button-container">
               <ButtonControl faShape={faAngleLeft} go={nextSlide} />
             </div>
           </div>
-          <div>           
+          <div>
             <ContentBox {...items[currentSlide].comment} />
           </div>
         </main>
@@ -45,9 +51,7 @@ const Testimonials = ({ title, items }) => {
 
 Testimonials.propTypes = {
   title: PropTypes.string.isRequired,
-  items: PropTypes.arrayOf(
-    PropTypes.object
-  ).isRequired,
+  items: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
 export default Testimonials;
