@@ -11,7 +11,7 @@ import { renderText } from '../helpers';
 
 const ContactUs = () => {
   const { pages: {
-    ['contact-us']: {
+    'contact-us': {
       title,
       subtitle,
       hero,
