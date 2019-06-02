@@ -5,6 +5,7 @@ import { AppContext } from "../context/app";
 import Article from "../components/sections/Article";
 
 import NotFound from "../pages/NotFound";
+import PageForm from "../components/blocks/PageForm/PageForm";
 
 const Product = ({
   match: {
@@ -18,21 +19,21 @@ const Product = ({
   }
 
   const {
-    [name]: { article, title }
+    [name]: { article, title, form }
   } = pages;
 
   return (
     <>
-      {
-        <Article
-          banner={article.banner}
-          content={article.content}
-          variant={article.variant}
-          contact={article.contact}
-          title={title}
-          thin="true"
-        />
-      }
+      <Article
+        banner={article.banner}
+        content={article.content}
+        variant={article.variant}
+        contact={article.contact}
+        title={title}
+        thin="true"
+      >
+        <PageForm form={form.url} />
+      </Article>
     </>
   );
 };

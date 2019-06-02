@@ -14,7 +14,8 @@ const Article = ({
   content,
   contact,
   title,
-  thin = false
+  thin = false,
+  children
 }) => (
   <section className={`article ${thin && "article--gup"}`}>
     <div
@@ -45,6 +46,7 @@ const Article = ({
             ליצירת קשר
           </Link>
         )}
+        {children}
       </main>
     </div>
   </section>
