@@ -13,3 +13,27 @@
 .container--wide {
   @include containerWidth($container-width--wide);
 }
+
+.container__product {
+  @include containerWidth($container-width--thin);
+  margin-top: 11.5625rem;
+  background: linear-gradient(20deg, #ed43ff, #7444fe);
+  border: solid 1px transparent;
+  box-shadow: 0px 2px 13px 1px #555555;
+  border-radius: 15px;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+
+  &--theme-purple {
+    background: linear-gradient(20deg, #ed43ff, #7444fe);
+  }
+
+  &--theme-blue {
+    background: linear-gradient(20deg, #00dbcc, #9153ff);
+  }
+
+  &--theme-green {
+    background: linear-gradient(20deg, #00e91f, #00aec9);
+  }
+}

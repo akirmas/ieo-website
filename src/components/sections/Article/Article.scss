@@ -5,27 +5,56 @@
 }
 
 .article {
+  &--gup {
+    padding: 0.5rem;
+  }
 
   &__main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #fff;
+  }
+
+  &__page-title {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    padding: 0px 50px 0 70px;
+    background: linear-gradient(20deg, #ed43ff, #7444fe);
+    border-radius: 0 0 0 94px;
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 0 auto;
+
+    &--theme-purple {
+      background: linear-gradient(20deg, #ed43ff, #7444fe);
+    }
+
+    &--theme-blue {
+      background: linear-gradient(20deg, #00dbcc, #9153ff);
+    }
+
+    &--theme-green {
+      background: linear-gradient(20deg, #00e91f, #00aec9);
+    }
   }
 
   &__title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 1.25rem;
-    line-height: 1.75rem; 
+    line-height: 1.75rem;
     font-weight: bold;
     padding-bottom: 1.8125rem;
     text-align: center;
 
     &--theme-blue {
-      @include textLinearGradient(30deg, #00DBCC, #8139FF);
+      @include textLinearGradient(30deg, #00dbcc, #8139ff);
     }
 
     &--theme-green {
-      @include textLinearGradient(30deg, #00E91F, #00AEC9);
+      @include textLinearGradient(30deg, #00e91f, #00aec9);
     }
   }
 
@@ -35,16 +64,16 @@
   }
 
   &__text {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 0.875rem;
     line-height: 1.5rem;
     font-weight: 300;
     text-align: center;
-    color: #2A2A2A;
+    color: #2a2a2a;
   }
 
   &__contact-link {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 1.25rem;
     line-height: 1.6875rem;
     font-weight: bold;
@@ -56,22 +85,22 @@
     display: block;
 
     &--theme-purple {
-      background: linear-gradient(20deg, #ED43FF, #7444FE);
+      background: linear-gradient(20deg, #ed43ff, #7444fe);
     }
 
     &--theme-blue {
-      background: linear-gradient(20deg, #00DBCC, #9153FF);
+      background: linear-gradient(20deg, #00dbcc, #9153ff);
     }
 
     &--theme-green {
-      background: linear-gradient(20deg, #00E91F, #00AEC9);
+      background: linear-gradient(20deg, #00e91f, #00aec9);
     }
   }
 
   @media (min-width: 576px) {
     &__title {
       font-size: 1.5rem;
-      line-height: 2rem; 
+      line-height: 2rem;
     }
 
     &__text {
@@ -82,7 +111,7 @@
   @media (min-width: 768px) {
     &__title {
       font-size: 2rem;
-      line-height: 2.6875rem; 
+      line-height: 2.6875rem;
     }
 
     &__text {

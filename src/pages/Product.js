@@ -18,11 +18,23 @@ const Product = ({
   }
 
   const {
-    [name]: { article, showcase }
+    [name]: { article, title }
   } = pages;
-  console.log(name);
-  console.log(article);
-  return <>{/* <Article {...{ article }} /> */}</>;
+
+  return (
+    <>
+      {
+        <Article
+          banner={article.banner}
+          content={article.content}
+          variant={article.variant}
+          contact={article.contact}
+          title={title}
+          thin="true"
+        />
+      }
+    </>
+  );
 };
 
 Product.propTypes = {
