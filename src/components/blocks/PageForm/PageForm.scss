@@ -1,0 +1,159 @@
+.page-form {
+  max-width: 50.3125rem;
+  padding: 2.375rem 0.5rem;
+
+  &__title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: #2e2e2e;
+    padding-bottom: 0.5rem;
+  }
+
+  &__main {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.875rem 1fr 1fr 1fr;
+    grid-template-rows: 1.875rem 3.625rem 1.875rem 3.625rem 1.875rem 3.625rem 1.875rem 1fr 2.875rem 2.875rem 2.875rem 3.625rem;
+    grid-template-areas: "a a a . b b b " " d d d . e e e " "c c c . g g g" "f f f . p p p" "i i i . h h h" "r r r . q q q" "x x x x x x x " "u u u u u u u" "s s s s s s s" "t t t t t t t" " . . . . . . . " " . . v v v . . ";
+
+    .react-components:form styles .Label {
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      color: #2e2e2e;
+    }
+
+    .Label,
+    .Input:not(.Submit):not(.Textarea):not([type="checkbox"]) {
+      width: 100%;
+    }
+
+    .Input:not(.Submit):not(.Textarea):not([type="checkbox"]) {
+      height: 2.5rem;
+    }
+
+    .Input:not(.Submit):not([type="checkbox"]) {
+      border-radius: 0.625rem;
+      border: 1px solid #9e9e9e;
+      outline: none;
+      padding: 0 1rem;
+      height: 7.5rem;
+    }
+
+    .Submit {
+      cursor: pointer;
+      border: none;
+      display: inline-block;
+      border-radius: 0.625rem;
+      background: linear-gradient(45deg, #55d500, #c9c900);
+      font-family: "Ubuntu", sans-serif;
+      font-size: 1.25rem;
+      line-height: 1.6875rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .Label:nth-of-type(1) {
+      grid-area: a;
+    }
+
+    .Label:nth-of-type(2) {
+      grid-area: b;
+    }
+
+    .Label:nth-of-type(3) {
+      grid-area: c;
+    }
+
+    .Input:nth-of-type(1)[name="name:first"] {
+      grid-area: d;
+    }
+
+    .Input:nth-of-type(2) {
+      grid-area: e;
+    }
+
+    .Input:nth-of-type(3) {
+      grid-area: f;
+    }
+
+    .Label:nth-of-type(4) {
+      grid-area: g;
+    }
+
+    .Label:nth-of-type(5) {
+      grid-area: h;
+    }
+
+    .Label:nth-of-type(6) {
+      grid-area: i;
+    }
+
+    .Input:nth-of-type(4) {
+      grid-area: p;
+    }
+
+    .Input:nth-of-type(5) {
+      grid-area: q;
+    }
+
+    .Input:nth-of-type(6) {
+      grid-area: r;
+    }
+
+    .Label:nth-of-type(7) {
+      grid-area: x;
+    }
+
+    .Label:nth-of-type(8) {
+      grid-area: t;
+      padding-right: 1.25rem;
+    }
+
+    .Label:nth-of-type(9) {
+      grid-area: s;
+      padding-right: 1.25rem;
+    }
+
+    [type="textarea"] {
+      grid-area: u;
+    }
+
+    .Submit {
+      grid-area: v;
+    }
+
+    .Input:nth-of-type(8),
+    .Input:nth-of-type(7) {
+      grid-area: s;
+      position: relative;
+
+      top: 0.25rem;
+      width: 1rem;
+      height: 1rem;
+    }
+    .Input:nth-of-type(7) {
+      grid-area: t;
+    }
+  }
+  @media (min-width: 420px) {
+    &__main {
+      grid-template-columns: 1fr 1fr 1fr 0.875rem 1fr 1fr 1fr 0.875rem 1fr 1fr 1fr;
+      grid-template-rows: 1.875rem 3.625rem 1.875rem 3.625rem 1.875rem 1fr 1fr 2.5rem 1fr;
+      grid-template-areas: "a a a . b b b . c c c" "d d d . e e e . f f f" "g g g . h h h . i i i" "p p p . q q q . r r r" "x x x x x x x x x x x" "u u u u u u u . s s s" "u u u u u u u . t t t" " . . . . . . . . . . . " " . . . . v v v . . . . ";
+    }
+  }
+
+  @media (min-width: 670px) {
+    &__main {
+      grid-template-columns: 1fr 1fr 1fr 3.875rem 1fr 1fr 1fr 3.875rem 1fr 1fr 1fr;
+      grid-template-areas: "a a a . b b b . c c c" "d d d . e e e . f f f" "g g g . h h h . i i i" "p p p . q q q . r r r" "x x x x x x x x x x x" "u u u u u u u . s s s" "u u u u u u u . t t t" " . . . . . . . . . . . " " . . . . . v . . . . . ";
+    }
+
+    .Submit {
+      margin: 0 -35px;
+    }
+  }
+}
