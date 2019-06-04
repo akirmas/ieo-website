@@ -1,16 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import React from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
-import Image from '../../shared/Image';
-import Nav from '../Nav';
-import NavMobile from '../NavMobile';
-import MobileMenu from '../../widgets/MobileMenu';
-import DropDownMenu from '../../widgets/DropDownMenu';
+import Image from "../../shared/Image";
+import Nav from "../Nav";
+import NavMobile from "../NavMobile";
+import MobileMenu from "../../widgets/MobileMenu";
+import DropDownMenu from "../../widgets/DropDownMenu";
 
-import useBoolean from '../../../hooks/useBoolean';
+import useBoolean from "../../../hooks/useBoolean";
 
-import './Header.scss';
+import "./Header.scss";
 
 const Header = ({ logo, navigation }) => {
   const { value: isOpen, setFalse: hide, setTrue: show } = useBoolean();
@@ -27,20 +27,17 @@ const Header = ({ logo, navigation }) => {
             <MobileMenu>
               <NavMobile config={navigation.sub} />
             </MobileMenu>
-            <Nav 
-              links={navigation.main} 
-              {...{onMouseEnter}}  
-            />
+            <Nav links={navigation.main} {...{ onMouseEnter }} />
             <Link to="/">
-              <Image className="logo" {...logo} />
+              <Image className="header__logo" {...logo} />
             </Link>
           </main>
         </div>
       </header>
-      <DropDownMenu 
+      <DropDownMenu
         isOpen={isOpen}
         config={navigation.sub}
-        {...{onMouseLeave}}
+        {...{ onMouseLeave }}
       />
     </>
   );
@@ -49,9 +46,9 @@ const Header = ({ logo, navigation }) => {
 Header.propTypes = {
   logo: PropTypes.shape({
     src: PropTypes.string.isRequired,
-    alt: PropTypes.string,
+    alt: PropTypes.string
   }).isRequired,
-  navigation: PropTypes.object.isRequired,
+  navigation: PropTypes.object.isRequired
 };
 
 export default Header;
