@@ -12,7 +12,8 @@ const WhoWeAre = ({ title, text }) => (
       <p className="who-we-are__text">
         {text}{" "}
         <Link to="./about/who-we-are">
-          <span className="who-we-are__link">...להמשך קריאה</span>
+          <span className="who-we-are__link">להמשך קריאה</span>
+          <span className="who-we-are__link">...</span>
         </Link>
       </p>
     </main>
