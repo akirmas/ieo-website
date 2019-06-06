@@ -1,21 +1,19 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import Teammate from '../../blocks/Teammate';
+import Teammate from "../../blocks/Teammate";
 
-import './Team.scss';
+import "./Team.scss";
 
 const Team = ({ team }) => {
-  const renderTeammate = (teammate) => (
+  const renderTeammate = teammate => (
     <Teammate key={teammate.name} {...teammate} />
   );
 
   return (
     <section className="team">
-      <div className="container container--wide">
-        <main className="team__main">
-          {team.map(renderTeammate)}
-        </main>
+      <div className="team__container container">
+        <main className="team__main">{team.map(renderTeammate)}</main>
       </div>
     </section>
   );
@@ -27,7 +25,7 @@ Team.propTypes = {
       photo: PropTypes.string.isRequired,
       position: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
-      info: PropTypes.string.isRequired,
+      info: PropTypes.string.isRequired
     })
   ).isRequired
 };

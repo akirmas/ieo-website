@@ -3,10 +3,14 @@
 
   &__main {
     display: grid;
-    grid-gap: 1.875rem;
+    grid-gap: 1.75rem;
     grid-template-columns: repeat(2, 1fr);
 
     padding-top: 7.75rem;
+  }
+
+  &__container {
+    max-width: 92.375rem;
   }
 
   @media (min-width: 576px) {
