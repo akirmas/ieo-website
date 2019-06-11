@@ -14,6 +14,16 @@
           "link": "https://www.facebook.com/ieoil1/"
         },
         {
+          "type": "instagram",
+          "icon": "images/social media/beta/instagram.png",
+          "link": "https://www.instagram.com/ieo_il/"
+        },
+        {
+          "type": "twitter",
+          "icon": "images/social media/beta/twitter.png",
+          "link": "https://twitter.com/IEO_IL/"
+        },
+        {
           "type": "linkedin",
           "icon": "images/social media/beta/linkedin.png",
           "link": "https://www.linkedin.com/company/ieo-il/"
@@ -48,11 +58,6 @@
           {
             "name": "מי אנחנו",
             "to": "/about/who-we-are",
-            "variant": "yellow"
-          },
-          {
-            "name": "תפקידי מפתח",
-            "to": "/about/key-roles",
             "variant": "yellow"
           }
         ],
@@ -145,12 +150,6 @@
       "mainSlider": [
         {
           "src": "images/slider/slides/1.png"
-        },
-        {
-          "src": "images/slider/slides/2.png"
-        },
-        {
-          "src": "images/slider/slides/3.png"
         }
       ],
       "whoWeAre": {
@@ -235,7 +234,7 @@
           {
             "avatar": "images/testimonials/avatars/2.png",
             "name": "יבגני דיניץ",
-            "status": "מנכ\"ל חברת Immigration",
+            "status": "מנכ\"ל חברת ההגירה",
             "comment": {
               "title": "תגובה",
               "text": "\"ברצוני להביע הערכה רבה לחברת IEO הנפלאה על העבודה המשותפת ועל כל התמיכה במהלך זמן העבודה יחד. עלי לציין במיוחד את מחלקות המדיה והפיתוח, אשר נותנות לנו תמיכה מושלמת בכל שעות היממה ובזכותם חברתינו מגיעה כל חודש להישגים בלתי רגילים. פשוט תענוג לעבוד עם אנשים כל כך מנוסים ומקצועיים. בתור מישהו שעבד עם לא מעט ספקי שירות בכל התחומים שחברת IEO מספקת עבורינו בשנה האחרונה, אני מופתע בכל פעם מחדש ממהירות הביצוע של כל המשימה וכמובן מרמת הביצוע, שהיא לא פחות ממשולמת.",
