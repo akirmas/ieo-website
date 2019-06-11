@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import ContactUs from "../../../pages/ContactUs";
 
 import Image from "../../shared/Image";
 
@@ -36,15 +37,9 @@ const Article = ({
         <Image className="article__banner" {...banner} />
         {renderContent(content, "article", variant)}
         {contact && (
-          <Link
-            className={classnames(
-              "article__contact-link",
-              variant ? `article__contact-link--theme-${variant}` : ""
-            )}
-            to="/contact-us"
-          >
-            ליצירת קשר
-          </Link>
+          <div className="article__contact">
+            <ContactUs />
+          </div>
         )}
         {children}
       </main>
