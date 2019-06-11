@@ -59,11 +59,6 @@
             "name": "מי אנחנו",
             "to": "/about/who-we-are",
             "variant": "yellow"
-          },
-          {
-            "name": "תפקידי מפתח",
-            "to": "/about/key-roles",
-            "variant": "yellow"
           }
         ],
         "תחומי פעילות": [
