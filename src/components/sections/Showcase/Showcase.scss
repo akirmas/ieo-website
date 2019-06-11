@@ -9,6 +9,11 @@
     justify-content: center;
   }
 
+  &__image {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
   @media (min-width: 468px) {
     & {
       padding-top: 8.375rem;
@@ -17,7 +22,7 @@
     &__image-list {
       flex-direction: initial;
     }
-    
+
     &__image-wrapper:not(:first-of-type) {
       padding-right: 4.1875rem;
     }
