@@ -104,6 +104,10 @@
   &__contact {
     max-width: 70%;
     margin: 0 auto;
+
+    .contact-us__main {
+      padding-bottom: 0;
+    }
   }
 
   @media (min-width: 576px) {
