@@ -9,9 +9,9 @@
 
   &__image {
     position: absolute;
-
+    margin: 0 auto;
     display: block;
-    
+
     transition: opacity 1.5s ease-in-out;
 
     &--is-active {

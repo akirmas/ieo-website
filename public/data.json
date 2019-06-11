@@ -145,12 +145,6 @@
       "mainSlider": [
         {
           "src": "images/slider/slides/1.png"
-        },
-        {
-          "src": "images/slider/slides/2.png"
-        },
-        {
-          "src": "images/slider/slides/3.png"
         }
       ],
       "whoWeAre": {
