@@ -11,18 +11,18 @@
   }
 
   &__link {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 1.25rem;
     line-height: 2rem;
     font-weight: bold;
-    color: #2E2E2E;
+    color: #2e2e2e;
     transition: color 0.3s ease-in-out;
 
     &--roily {
       display: none;
       font-size: 1.125rem;
       line-height: 2.3125rem;
-      color: #B9B9B9;
+      color: #b9b9b9;
       filter: blur(3px);
       transition: filter 0.3s ease-in-out;
 
@@ -47,26 +47,26 @@
       }
     }
 
-    &--yellow::after  {
-      background: linear-gradient(45deg, #FF2C00, #FFE600);
+    &--yellow::after {
+      background: linear-gradient(45deg, #ff2c00, #ffe600);
     }
 
-    &--purple::after  {
-      background: linear-gradient(15deg, #9D7BFF, #F275FF);
+    &--purple::after {
+      background: linear-gradient(15deg, #9d7bff, #f275ff);
     }
 
-    &--blue::after  {
-      background: linear-gradient(15deg, #8139FF, #00DBCC);
+    &--blue::after {
+      background: linear-gradient(15deg, #8139ff, #00dbcc);
     }
 
-    &--green::after  {
-      background: linear-gradient(15deg, #00DBFE, #00E91F);
+    &--green::after {
+      background: linear-gradient(15deg, #00dbfe, #00e91f);
     }
   }
 
   &__chevron {
     font-size: 1.5rem;
-    color: #6B6B6B;
+    color: #6b6b6b;
 
     position: absolute;
     top: 50%;
@@ -103,11 +103,11 @@
 
   @media (min-width: 992px) {
     &__link {
-      font-size: 3.75rem;
+      font-size: 3rem;
       line-height: 5rem;
 
       &--roily {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
         line-height: 3.3125rem;
       }
     }
