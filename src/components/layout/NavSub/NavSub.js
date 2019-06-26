@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState, useRef } from "react";
 import PropTypes from "prop-types";
 import { Link, withRouter } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,6 +12,19 @@ import { AppContext } from "../../../context/app";
 import "./NavSub.scss";
 
 const NavSub = ({ location: { pathname } }) => {
+  const [touchStart, setTouchStart] = useState(null);
+  const [difference, setDifference] = useState(null);
+  const nextRef = useRef(null);
+  const prevRef = useRef(null);
+
+  useEffect(() => {
+    if (difference && nextRef.current && difference > 50) {
+      nextRef.current.click();
+    } else if (difference && prevRef.current && difference < -50) {
+      prevRef.current.click();
+    }
+  }, [difference]);
+
   const {
     template: {
       navigation: { sub }
@@ -34,7 +47,11 @@ const NavSub = ({ location: { pathname } }) => {
     activeLinkIndex < links.length ? links[activeLinkIndex] : null;
 
   return (
-    <nav className="nav-sub">
+    <nav
+      className="nav-sub"
+      onTouchStart={e => setTouchStart(e.changedTouches[0].clientX)}
+      onTouchEnd={e => setDifference(touchStart - e.changedTouches[0].clientX)}
+    >
       <div className="container container--normal">
         <main className="nav-sub__main">
           {afterNext ? (
@@ -44,7 +61,9 @@ const NavSub = ({ location: { pathname } }) => {
                   className="nav-sub__chevron nav-sub__chevron--right"
                   to={next.to}
                 >
-                  <FontAwesomeIcon icon={faChevronRight} />
+                  <span ref={nextRef}>
+                    <FontAwesomeIcon icon={faChevronRight} />
+                  </span>
                 </Link>
               )}
 
@@ -77,7 +96,9 @@ const NavSub = ({ location: { pathname } }) => {
                 className="nav-sub__chevron nav-sub__chevron--left"
                 to={prev.to}
               >
-                <FontAwesomeIcon icon={faChevronLeft} />
+                <span ref={prevRef}>
+                  <FontAwesomeIcon icon={faChevronLeft} />
+                </span>
               </Link>
             </>
           ) : (
