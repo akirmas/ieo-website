@@ -6,8 +6,7 @@
     justify-items: center;
 
     position: relative;
-
-    padding: 0 2.5rem;
+    padding: 0 2.5rem 2rem;
   }
 
   &__link {
@@ -92,6 +91,7 @@
     &__main {
       grid-template-columns: repeat(3, 1fr);
       margin-top: 2.5rem;
+      padding: 0 2.5rem;
     }
 
     &__link {
