@@ -11,20 +11,7 @@ import { AppContext } from "../../../context/app";
 
 import "./NavSub.scss";
 
-const NavSub = ({ location: { pathname } }) => {
-  const [touchStart, setTouchStart] = useState(null);
-  const [difference, setDifference] = useState(null);
-  const nextRef = useRef(null);
-  const prevRef = useRef(null);
-
-  useEffect(() => {
-    if (difference && nextRef.current && difference > 50) {
-      nextRef.current.click();
-    } else if (difference && prevRef.current && difference < -50) {
-      prevRef.current.click();
-    }
-  }, [difference]);
-
+const NavSub = ({ location: { pathname }, nextRef, prevRef }) => {
   const {
     template: {
       navigation: { sub }
@@ -47,11 +34,7 @@ const NavSub = ({ location: { pathname } }) => {
     activeLinkIndex < links.length ? links[activeLinkIndex] : null;
 
   return (
-    <nav
-      className="nav-sub"
-      onTouchStart={e => setTouchStart(e.changedTouches[0].clientX)}
-      onTouchEnd={e => setDifference(touchStart - e.changedTouches[0].clientX)}
-    >
+    <nav className="nav-sub">
       <div className="container container--normal">
         <main className="nav-sub__main">
           {afterNext ? (
