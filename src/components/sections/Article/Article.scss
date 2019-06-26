@@ -110,7 +110,7 @@
     }
   }
 
-  @media (min-width: 425px) {
+  @media (max-width: 822px) {
     &__contact {
       max-width: 70%;
     }
@@ -135,6 +135,17 @@
 
     &__text {
       font-size: 1.125rem;
+    }
+  }
+  @media (min-width: 1100px) {
+    &__contact {
+      max-width: 80%;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    &__contact {
+      max-width: 70%;
     }
   }
 }
