@@ -37,7 +37,7 @@ const Article = ({
         )}
         <Image className="article__banner" {...banner} />
         {align
-          ? renderContent(content, "article", variant, "left")
+          ? renderContent(content, "article", variant, "justify")
           : renderContent(content, "article", variant)}
         {contact && (
           <div className="article__contact">

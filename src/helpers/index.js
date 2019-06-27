@@ -11,15 +11,16 @@ export const classnames = (...classList) =>
     .replace(/\s+/g, " ")
     .trim();
 
-export const renderText = text =>
-  Array.isArray(text)
+export const renderText = (text, align) => {
+  return Array.isArray(text)
     ? text.map((sentence, index) => (
         <Fragment key={sentence}>
           {sentence}
-          {index < text.length - 1 && <br />}
+          {index < text.length - 1 && !align && <br />}
         </Fragment>
       ))
     : text;
+};
 
 // TODO: Each child in a list should have a unique "key" prop
 export const renderContent = (content, blockName, variant, align) =>
@@ -47,7 +48,7 @@ export const renderContent = (content, blockName, variant, align) =>
                       key={text}
                       className={`${blockName}__text ${blockName}__text--${align}`}
                     >
-                      {renderText(text)}
+                      {renderText(text, align)}
                     </p>
                   ))
                 : renderText(value)}
