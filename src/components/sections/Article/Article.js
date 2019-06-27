@@ -16,6 +16,7 @@ const Article = ({
   contact,
   title,
   thin = false,
+  align,
   children
 }) => (
   <section className={`article ${thin && "article--gup"}`}>
@@ -35,7 +36,9 @@ const Article = ({
           </h2>
         )}
         <Image className="article__banner" {...banner} />
-        {renderContent(content, "article", variant)}
+        {align
+          ? renderContent(content, "article", variant, "left")
+          : renderContent(content, "article", variant)}
         {contact && (
           <div className="article__contact">
             <ContactUs />

@@ -31,6 +31,7 @@ const Product = ({
         contact={article.contact}
         title={title}
         thin="true"
+        align="left"
       >
         <PageForm form={form.url} />
       </Article>
