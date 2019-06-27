@@ -2,8 +2,12 @@
   background-color: #fff;
 
   &__header {
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 3.875rem;
+
+    @media (min-width: 664px) {
+      padding-top: 5rem;
+    }
   }
 
   &__title {
@@ -23,6 +27,9 @@
       & {
         grid-template-columns: repeat(2, 1fr);
       }
+    }
+
+    @media (min-width: 664px) {
     }
 
     @media (min-width: 758px) {

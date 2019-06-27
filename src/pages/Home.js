@@ -1,27 +1,31 @@
-import React, { useContext } from 'react';
+import React, { useContext } from "react";
 
-import ImageSlider from '../components/widgets/ImageSlider';
-import WhoWeAre from '../components/sections/WhoWeAre';
-import UsefulProducts from '../components/sections/UsefulProducts';
-import ExpertiseAreas from '../components/sections/ExpertiseAreas';
-import Testimonials from '../components/sections/Testimonials';
+import ImageSlider from "../components/widgets/ImageSlider";
+import Banner from "../components/sections/Banner";
+import WhoWeAre from "../components/sections/WhoWeAre";
+import UsefulProducts from "../components/sections/UsefulProducts";
+import ExpertiseAreas from "../components/sections/ExpertiseAreas";
+import Testimonials from "../components/sections/Testimonials";
 
-import { AppContext } from '../context/app';
+import { AppContext } from "../context/app";
 
 const Home = () => {
-  const { pages: { 
-    home: {
-      mainSlider,
-      whoWeAre,
-      usefulProducts,
-      expertiseAreas,
-      testimonials,
+  const {
+    pages: {
+      home: {
+        mainSlider,
+        whoWeAre,
+        usefulProducts,
+        expertiseAreas,
+        testimonials
+      }
     }
-  } } = useContext(AppContext);
+  } = useContext(AppContext);
 
   return (
     <>
-      <ImageSlider images={mainSlider} />
+      {/* <ImageSlider images={mainSlider} /> */}
+      <Banner />
       <WhoWeAre {...whoWeAre} />
       <UsefulProducts {...usefulProducts} />
       <ExpertiseAreas {...expertiseAreas} />
