@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import Image from '../../shared/Image';
+import Image from "../../shared/Image";
 
-const Slide = ({ avatar, name, status, slideClassName, setSlide, i }) => {  
+const Slide = ({ avatar, name, status, slideClassName, setSlide, i }) => {
   const changeSlide = () => setSlide(i);
 
   return (
@@ -12,7 +12,7 @@ const Slide = ({ avatar, name, status, slideClassName, setSlide, i }) => {
         <Image src={avatar} alt={name} className="testimonials__avatar" />
       </div>
       <div className="testimonials__user-info">
-        <h4 className="testimonials__user-info-author">{name}</h4>       
+        <h4 className="testimonials__user-info-author">{name}</h4>
         <span className="testimonials__user-info-status"> {status}</span>
       </div>
     </div>
@@ -25,7 +25,7 @@ Slide.propTypes = {
   status: PropTypes.string.isRequired,
   slideClassName: PropTypes.string.isRequired,
   setSlide: PropTypes.func.isRequired,
-  i: PropTypes.number.isRequired,
+  i: PropTypes.number.isRequired
 };
 
 export default Slide;

@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+
 import ContactUs from "../../../pages/ContactUs";
 
 import Image from "../../shared/Image";
 
-import { renderContent, classnames } from "../../../helpers";
+import { renderContent } from "../../../helpers";
 
 import "./Article.scss";
 

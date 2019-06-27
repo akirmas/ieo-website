@@ -15,7 +15,9 @@ const Testimonials = ({ title, items }) => {
     nextSlide,
     prevSlide,
     setSlide,
-    sliderLength
+    sliderLength,
+    letGo,
+    toggleLetGo
   } = useTestimonialsSlider(items);
 
   const ButtonControl = ({ go, faShape }) => (
@@ -30,12 +32,17 @@ const Testimonials = ({ title, items }) => {
         <header className="testimonials__header">
           <h3 className="testimonials__title">{title}</h3>
         </header>
-        <main className="testimonials__main">
+        <main
+          className="testimonials__main"
+          onClick={() => toggleLetGo(!letGo)}
+        >
           <div className="testimonials__slider-area">
             <div className="testimonials__button-container">
               <ButtonControl faShape={faAngleRight} go={prevSlide} />
             </div>
-            <Slider {...{ items, currentSlide, setSlide, sliderLength }} />
+            <Slider
+              {...{ items, currentSlide, setSlide, sliderLength, letGo }}
+            />
             <div className="testimonials__button-container">
               <ButtonControl faShape={faAngleLeft} go={nextSlide} />
             </div>
