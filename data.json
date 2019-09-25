@@ -140,6 +140,11 @@
             "name": "התקנה",
             "to": "/products/setting",
             "variant": "green"
+          },
+            {
+            "name": "הפעלת מוקדים",
+            "to": "/products/center",
+            "variant": "green"
           }
         ]
       }
