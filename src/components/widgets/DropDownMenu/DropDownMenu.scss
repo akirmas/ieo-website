@@ -28,6 +28,12 @@
 
     display: flex;
     flex-direction: column;
+    &-absolute {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: -100%;
+    }
   }
 
   &__link {
@@ -38,7 +44,10 @@
     color: #707070;
     padding: 0.8125rem 0;
     transition: color 0.3s ease-in-out;
-
+    position: relative;
+    &-active:hover > .drop-down-menu__group-absolute {
+      display: flex;
+    }
     &:hover {
       color: #aeabab;
     }

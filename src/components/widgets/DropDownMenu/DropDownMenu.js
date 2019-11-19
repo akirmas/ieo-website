@@ -5,6 +5,8 @@ import { SlideDown } from 'react-slidedown';
 
 import Image from '../../shared/Image';
 
+import { classnames } from '../../../helpers';
+
 import 'react-slidedown/lib/slidedown.css';
 import './DropDownMenu.scss';
 
@@ -19,9 +21,27 @@ const DropDownMenu = ({ config, isOpen, onMouseLeave }) => {
   );
 
   const renderLink = link => (
-    <Link key={link.name} className="drop-down-menu__link" to={link.to}>
-      {link.name}
-    </Link>
+    <>
+        <Link
+          key={link.name}
+          to={link.to}
+          className={classnames(
+              'drop-down-menu__link',
+              'drop-down-menu__link-'.concat(link.submenu ? 'active' : 'hidden')
+            )}
+        >
+          {link.name}
+          {link.submenu && <div 
+          className="drop-down-menu__group drop-down-menu__group-absolute"
+          onClick={onMouseLeave}  
+        >
+          {link.submenu.map( link => <Link key={link.name} className="drop-down-menu__link" to={link.to}>
+            {link.name}
+          </Link>)}
+    </div>}
+        </Link>
+    </>
+    
   );
 
   return (

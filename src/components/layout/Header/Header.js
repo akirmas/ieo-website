@@ -25,7 +25,7 @@ const Header = ({ logo, navigation }) => {
         <div className="container container--wide">
           <main className="header__main">
             <MobileMenu>
-              <NavMobile config={navigation.sub} />
+              <NavMobile config={navigation.subMobile} />
             </MobileMenu>
             <Nav links={navigation.main} {...{ onMouseEnter }} />
             <Link to="/">

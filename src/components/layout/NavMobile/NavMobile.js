@@ -13,7 +13,7 @@ const NavMobile = ({ config }) => {
   );
 
   const renderLink = (link) => (
-    <Link key={link.name} className="nav-mobile__link" to={link.to}>{link.name}</Link>
+    <>{link.to ? <Link key={link.name} className="nav-mobile__link" to={link.to}>{link.name}</Link> : <div className="nav-mobile__link">{link.name}</div>}</>
   );
 
   return (

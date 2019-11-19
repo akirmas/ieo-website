@@ -18,7 +18,6 @@ const ContactUs = () => {
       form
     }
   } } = useContext(AppContext);
-
   
   const [open, setOpen] = React.useState(false)
   const [text, setText] = React.useState('תודה!')
@@ -73,7 +72,6 @@ const ContactUs = () => {
       referrer: 'no-referrer',
       body: JSON.stringify({fields: leadData}),
     }).then((res) => {
-      console.log(res);
 
       setOpen(true);
 
