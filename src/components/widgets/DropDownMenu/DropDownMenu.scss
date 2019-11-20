@@ -47,6 +47,7 @@
     position: relative;
     &-active:hover > .drop-down-menu__group-absolute {
       display: flex;
+      background-color: rgba(#fff, 0.9);
     }
     &:hover {
       color: #aeabab;
