@@ -166,13 +166,13 @@
         "cards": [
           {
             "title": "פתרונות דיגיטליים",
-            "to": "",
+            "to": "/#",
             "image": "images/products/digital-solutions.png",
             "text": "בניית אסטרטגיה ושיווק בפלטפורמות הנבחרות."
           },
           {
             "title": "פיתוח",
-            "to": "",
+            "to": "/#",
             "image": "images/products/marketing-development.png",
             "text": "בניית אתרים בהתאם לצרכי המותג הקמה ותפעול מערכות CRM"
           },
