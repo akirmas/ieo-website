@@ -929,7 +929,7 @@
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/setting/newieo.gif",
+          "src": "images/pages/setting/ieo.gif",
           "alt": ""
         },
         "content": [
@@ -967,7 +967,7 @@
             "src": "images/pages/landing-pages/2.png"
           },
           {
-            "src": "images/pages/you-create-we-support.png"
+            "src": "images/pages/landing-pages/1.png"
           },
           {
             "src": "images/pages/you-create-we-support.png"
