@@ -262,8 +262,8 @@
             "name": "הפעלת מוקדים",
             "to": "/products/center",
             "variant": "green"
-          }
-      /*    {
+          },
+          {
             "name": "עזרה במילוי טפסים",
             "variant": "green"
           },
@@ -282,7 +282,7 @@
           {
             "name": "שרות הודעות",
             "variant": "green"
-          }*/
+          }
         ]
       }
     }
