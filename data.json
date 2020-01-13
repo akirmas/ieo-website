@@ -964,7 +964,10 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/setting/1.png"
+            "src": "images/pages/landing-pages/2.png"
+          },
+          {
+            "src": "images/pages/you-create-we-support.png"
           },
           {
             "src": "images/pages/you-create-we-support.png"
