@@ -142,38 +142,17 @@
             "variant": "green"
           },
              {
-            "name": "הפעלת מוקדיםםם",
+            "name": "הפעלת מוקדים",
             "to": "/products/center",
-            "variant": "green",
-            "submenu": [
-              {
-                "name": "עזרה במילוי טפסים",
-                "variant": "green"
-              },
-              {
-                "name": "מוצרי קוסמטיקה",
-                "variant": "green"
-              },
-              {
-                "name": "שימור מאגר לקוחות קיימים",
-                "variant": "green"
-              },
-              {
-                "name": "תיאום פגישות",
-                "variant": "green"
-              },
-              {
-                "name": "שרות הודעות",
-                "variant": "green"
-              }
-            ]
+            "variant": "green"
+
           }
         ]
       },
       "subMobile": {
         "אודות": [
           {
-            "name": "מי אנחנו",
+            "name": "מי אנחנ",
             "to": "/about/who-we-are",
             "variant": "yellow"
           }
