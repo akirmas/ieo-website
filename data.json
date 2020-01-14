@@ -938,7 +938,7 @@
               "מכירת מוצרי קוסמטיקה עבור",
               "amayabeautyshop.com"
             ],
-            "to": "https://amayabeautyshop.com",
+            "to": "https://www.amayabeautyshop.com",
             "text": [
               [
                 "אמאיה ביוטי שופ מובילים בארץ במוצרי ביוטי וטיפוח עור.",
@@ -953,7 +953,7 @@
               "מתן עזרה במילוי טפסים לטובת שרותי הגירה לארה”ב עבור",
               "greencardwinners.com"
             ],
-            "to":"https://greencardwinners.com",
+            "to":"https://www.greencardwinners.com",
             "text": [
               [
                 "מעניקה  יעוץ ולווי מלא בכל השלבים למעוניינים להגיש בקשה לקבלת מגוון סוגי הויזות, (תייר, משפחתי, לימודים, עבודה) אשרות כניסה ותושבות קבע לארה''ב."
@@ -1387,26 +1387,6 @@
           {
             "name": "הפעלת מוקדים",
             "to": "/products/center",
-            "variant": "green"
-          },
-          {
-            "name": "עזרה במילוי טפסים",
-            "variant": "green"
-          },
-          {
-            "name": "מוצרי קוסמטיקה",
-            "variant": "green"
-          },
-          {
-            "name": "שימור מאגר לקוחות קיימים",
-            "variant": "green"
-          },
-          {
-            "name": "תיאום פגישות",
-            "variant": "green"
-          },
-          {
-            "name": "שרות הודעות",
             "variant": "green"
           }
         ]
