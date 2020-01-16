@@ -22,8 +22,28 @@ export const renderText = (text, align) => {
     : text;
 };
 
+export const headTextOnClick = (text, link) => {
+  window.dataLayer.push({
+    event: "click",
+    pageLink: link,
+    pageText: text
+  });
+};
+
 export const renderHeadText = (text, align, link) => {
-  return link ? <a href={link}>{renderText(text, align)}</a> : renderText(text, align);
+  return link ? (
+    <a
+      href={link}
+      onClick={() => {
+        headTextOnClick(text, link);
+      }}
+      target="_blank"
+    >
+      {renderText(text, align)}
+    </a>
+  ) : (
+    renderText(text, align)
+  );
 };
 
 // TODO: Each child in a list should have a unique "key" prop
