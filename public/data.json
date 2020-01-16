@@ -1,155 +1,4 @@
 {
-  "template": {
-    "header": {
-      "logo": {
-        "src": "images/logo/ieo.gif",
-        "alt": "ieo website"
-      }
-    },
-    "footer": {
-      "contacts": [
-        {
-          "type": "facebook",
-          "icon": "images/social media/beta/facebook.png",
-          "link": "https://www.facebook.com/ieoil1/"
-        },
-        {
-          "type": "instagram",
-          "icon": "images/social media/beta/instagram.png",
-          "link": "https://www.instagram.com/ieo_il/"
-        },
-        {
-          "type": "twitter",
-          "icon": "images/social media/beta/twitter.png",
-          "link": "https://twitter.com/IEO_IL/"
-        },
-        {
-          "type": "linkedin",
-          "icon": "images/social media/beta/linkedin.png",
-          "link": "https://www.linkedin.com/company/ieo-il/"
-        }
-      ]
-    },
-    "navigation": {
-      "main": [
-        {
-          "name": "אודות",
-          "to": "/about/who-we-are",
-          "variant": "yellow"
-        },
-        {
-          "name": "תחומי פעילות",
-          "to": "/activities/business",
-          "variant": "purple"
-        },
-        {
-          "name": "פתרונות",
-          "to": "/solutions/development",
-          "variant": "blue"
-        },
-        {
-          "name": "מוצרים",
-          "to": "/products/info",
-          "variant": "green"
-        }
-      ],
-      "sub": {
-        "אודות": [
-          {
-            "name": "מי אנחנו",
-            "to": "/about/who-we-are",
-            "variant": "yellow"
-          }
-        ],
-        "תחומי פעילות": [
-          {
-            "name": "עסקי",
-            "to": "/activities/business",
-            "variant": "purple"
-          },
-          {
-            "name": "פיננסי",
-            "to": "/activities/finance",
-            "variant": "purple"
-          },
-          {
-            "name": "אינטרנט",
-            "to": "/activities/internet",
-            "variant": "purple"
-          }
-        ],
-        "פתרונות": [
-          {
-            "name": "פיתוח",
-            "to": "/solutions/development",
-            "variant": "blue"
-          },
-          {
-            "name": "אינטגרציות",
-            "to": "/solutions/integration",
-            "variant": "blue"
-          },
-          {
-            "name": "פרסום",
-            "to": "/solutions/advertising",
-            "variant": "blue"
-          },
-          {
-            "name": "ניתוח דאטה",
-            "to": "/solutions/data-analysis",
-            "variant": "blue"
-          },
-          {
-            "name": "תקשורת ו -IT",
-            "to": "/solutions/communications-&-it",
-            "variant": "blue"
-          }
-        ],
-        "מוצרים": [
-          {
-            "name": "מוצרים",
-            "to": "/products/info",
-            "variant": "green"
-          },
-          {
-            "name": "CRM",
-            "to": "/products/crm",
-            "variant": "green"
-          },
-          {
-            "name": "דפי נחיתה",
-            "to": "/products/landing-pages",
-            "variant": "green"
-          },
-          {
-            "name": "אחסון",
-            "to": "/products/storage",
-            "variant": "green"
-          },
-          {
-            "name": "סקיוריטי",
-            "to": "/products/security",
-            "variant": "green"
-          },
-          {
-            "name": "תקשורת",
-            "to": "/products/connection",
-            "variant": "green"
-          },
-          {
-            "name": "התקנה",
-            "to": "/products/setting",
-            "variant": "green"
-          },
-             {
-            "name": "הפעלת מוקדים",
-            "to": "/products/center",
-            "variant": "green"
-          }
-        ]
-      }
-    }
-  },
   "pages": {
     "home": {
       "mainSlider": [
@@ -166,19 +15,19 @@
         "cards": [
           {
             "title": "פתרונות דיגיטליים",
-            "to": "https://www.mako.co.il",
+            "to": "/#/",
             "image": "images/products/digital-solutions.png",
             "text": "בניית אסטרטגיה ושיווק בפלטפורמות הנבחרות."
           },
           {
             "title": "פיתוח",
-            "to": "/#",
+            "to": "/#/",
             "image": "images/products/marketing-development.png",
             "text": "בניית אתרים בהתאם לצרכי המותג הקמה ותפעול מערכות CRM"
           },
           {
             "title": "HUB",
-            "to": "/product/hub",
+            "to": "/#/",
             "image": "images/products/hub.png",
             "text": "\"חממה\" לעסקים מתחילים הכוללת ליווי עסקי, ייעוץ פיננסי ודיגיטלי."
           }
@@ -219,16 +68,24 @@
             "comment": {
               "title": "תגובה",
               "text": [
-                ["חברת IEO עשתה לנו סדר,"],
-                ["חסכה לנו זמן,"],
-                ["איפשרה לנו לעוף קדימה,"],
+                [
+                  "חברת IEO עשתה לנו סדר,"
+                ],
+                [
+                  "חסכה לנו זמן,"
+                ],
+                [
+                  "איפשרה לנו לעוף קדימה,"
+                ],
                 [
                   "בזכות השירות, המקצועיות, הסבלנות וההבנה המקצועית של הצרכים שלנו."
                 ],
                 [
                   "תודה! לא יכלנו אחרת להגיע בזמן כל כך קצר לכאלה תוצאות במכירות במערכות המידע ובמדיה!"
                 ],
-                ["ממליצה בחום..."],
+                [
+                  "ממליצה בחום..."
+                ],
                 [
                   "אם אתם רוצים לחסוך זמן כסף ולהתחיל להיות ארגון מרוויח IEO היא הפתרון עבורכם."
                 ]
@@ -323,7 +180,9 @@
                 "העולם המודרני בימינו.",
                 "שואפים להיות הטובים ביותר בתחומכם?"
               ],
-              ["בואו נדבר על הקפיצה העסקית הבאה שלכם:"]
+              [
+                "בואו נדבר על הקפיצה העסקית הבאה שלכם:"
+              ]
             ]
           }
         ],
@@ -349,7 +208,10 @@
         },
         "content": [
           {
-            "title": ["ההבדל בין חברה", "מפותחת לחברה מתפתחת"],
+            "title": [
+              "ההבדל בין חברה",
+              "מפותחת לחברה מתפתחת"
+            ],
             "text": [
               [
                 "חברת IEO מתמחה בפיתוח אתרים, הטמעת מערכות CRM ופיתוח תוכנה לפי דרישה. המומחים שלנו יאתרו את הצרכים",
@@ -366,8 +228,12 @@
                 "לחברת IEO צוותי פיתוח במספר מדינות בעולם. הצוותים שלנו שלנו ניהלו עשרות פרויקטים לחברות ממגוון תחומים, בארץ ובעולם. ",
                 "הפתרונות שלנו יעניקו לחברתכם חיסכון משמעותי במשאבים ותעתיק את המותג שלכם היישר לעולם הדיגיטלי."
               ],
-              ["שנדבר יותר על הקפיצה העסקית הבאה שלכם?"],
-              ["השאירו פרטים ונחזור אליכם."]
+              [
+                "שנדבר יותר על הקפיצה העסקית הבאה שלכם?"
+              ],
+              [
+                "השאירו פרטים ונחזור אליכם."
+              ]
             ]
           }
         ],
@@ -507,7 +373,9 @@
                 "לכם להתנהל בצורה הכי נכונה ורווחית לעסק על ידי ייעוץ בנוגע לניהול התזרים, התקציבים ועמידה ביעדים פיננסיים. כך, תוכלו",
                 "לשמור על עסק יציב ומשגשג לאורך זמן."
               ],
-              ["בואו נדבר על הקפיצה העסקית הבאה שלכם:"]
+              [
+                "בואו נדבר על הקפיצה העסקית הבאה שלכם:"
+              ]
             ]
           }
         ],
@@ -679,7 +547,10 @@
           {
             "title": "על שולחן הניתוחים",
             "text": [
-              ["כוחות החיזוי של המאה ה-21", "כוחות החיזוי של המדיה הדיגיטלית"],
+              [
+                "כוחות החיזוי של המאה ה-21",
+                "כוחות החיזוי של המדיה הדיגיטלית"
+              ],
               [
                 "הטכנולוגיה הדיגיטלית מאפשרת לנו לחקור ולהבין מיליוני פעולות, שבמהלכן אנשים מחליפים זה עם זה כסף, מוצרים או רעיונות."
               ],
@@ -711,6 +582,19 @@
             "src": "images/pages/you-create-we-support.png"
           }
         ]
+      }
+    },
+    "contact-us": {
+      "title": "צור קשר",
+      "subtitle": [
+        "על מנת לקבל מידע נוסף על המוצרים והשירותים שלנו, מלא\\י פרטים ונחזור אלייך בהקדם"
+      ],
+      "hero": {
+        "src": "images/pages/contact-us/hero.png",
+        "alt": "צור קשר"
+      },
+      "form": {
+        "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
       }
     },
     "communications-&-it": {
@@ -1020,7 +904,10 @@
         },
         "content": [
           {
-            "title": ["התקנת תשתיות", "בהתאם לצרכי בית העסק"],
+            "title": [
+              "התקנת תשתיות",
+              "בהתאם לצרכי בית העסק"
+            ],
             "text": [
               [
                 "הפעילות העסקית והארגונית בימינו מסתמכת יותר ויותר על רשת תקשורת, באמצעותה ניתן לנהל מידע ולבצע את הפעולות ",
@@ -1036,30 +923,40 @@
           }
         ],
         "contact": true
-      },
-        "center": {
+      }
+    },
+    "center": {
       "article": {
         "variant": "green",
         "banner": {
-          "src": "images/pages/setting/hero.gif",
+          "src": "images/pages/center/center.gif",
           "alt": ""
         },
         "content": [
           {
-            "title": "הפעלת מוקדים",
+            "title": [
+              "מכירת מוצרי קוסמטיקה עבור",
+              "amayabeautyshop.com"
+            ],
+            "to": "https://www.amayabeautyshop.com",
             "text": [
-               [
-                "טלמרקטינג הוא ערוץ שיווק ומכירות וותיק המצליח להישאר רלוונטי למרות ההתפתחויות הטכנולוגיות וצמיחתם של ערוצי מכירה דיגיטליים",
-                "מחקרים רבים מוכיחים שבמקרים רבים עדיין אין תחליף לתקשורת בין-אישית בתהליכי מכירה",
-                "חברת IEO מחזיקה מוקדי שירות ומכירוץ עבור הפעילויות הפנימיות שלה ועבור לקוחותיה",
-                " אנו מתמחים בהקמה בתפעול ובניהול מוקדי טלמרקטינג לעסקים. השירות מותאם לצרכיו הייחודיים של הלקוח",
-                "באמצעות הפעלת מוקד טלמרקטינג יכול העסק למתג את עצמו, ליצור בידול ממתחרים ולזכות ביתרונות רבים."
-              ],
               [
-                "מי צריך להקים Callcenter?"
-              ],
+                "אמאיה ביוטי שופ מובילים בארץ במוצרי ביוטי וטיפוח עור.",
+                "בעלת קו מוצרים חדשני למכשור טכנולוגי מתקדם לטיפול אישי בכל הקשור ל-SKIN CARE & ANTY AGING",
+                "לעור צעיר יותר, בריא יותר, בעל מראה זוהר, בגישה מהירה ובריאה."
+
+              ]
+            ]
+          },
+          {
+            "title": [
+              "מתן עזרה במילוי טפסים לטובת שרותי הגירה לארה”ב עבור",
+              "greencardwinners.com"
+            ],
+            "to":"https://www.greencardwinners.com",
+            "text": [
               [
-              "כל ארגון או עסק שיכול להגדיל רווחיות במכירות בטלפון. ניתן בנוסף לספק שירות או תמיכה בקנה מידה כזה שאינו מאפשר מענה של אדם יחיד. אין מגבלה לגודל המוקד, ישנם מוקדים של 2-3 נציגים וגם כאלו של מאות ואלפי נציגים. להלן תחומים לדוגמא שבהם עושים היום שימוש נרחב במוקדים טלפוניים: תקשורת, ביטוח, תיירות, רכב, רפואה, השקעות, מוקדים עירוניים, חברות ממשלתיות ועוד. כמעט ולא קיימים כיום ארגונים או חברות שאין להם מוקד טלפוני."
+                "מעניקה  יעוץ ולווי מלא בכל השלבים למעוניינים להגיש בקשה לקבלת מגוון סוגי הויזות, (תייר, משפחתי, לימודים, עבודה) אשרות כניסה ותושבות קבע לארה''ב."
               ]
             ]
           }
@@ -1069,25 +966,28 @@
       "showcase": {
         "images": [
           {
-            "src": "images/pages/setting/1.png"
+            "src": "images/pages/landing-pages/2.png"
+          },
+          {
+            "src": "images/pages/landing-pages/1.png"
           },
           {
             "src": "images/pages/you-create-we-support.png"
           }
         ]
-      }
-    },
-    "contact-us": {
-      "title": "צור קשר",
-      "subtitle": [
-        "על מנת לקבל מידע נוסף על המוצרים והשירותים שלנו, מלא\\י פרטים ונחזור אלייך בהקדם"
-      ],
-      "hero": {
-        "src": "images/pages/contact-us/hero.png",
-        "alt": "צור קשר"
       },
-      "form": {
-        "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
+      "contact-us": {
+        "title": "צור קשר",
+        "subtitle": [
+          "על מנת לקבל מידע נוסף על המוצרים והשירותים שלנו, מלא\\י פרטים ונחזור אלייך בהקדם"
+        ],
+        "hero": {
+          "src": "images/pages/contact-us/hero.png",
+          "alt": "צור קשר"
+        },
+        "form": {
+          "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
+        }
       }
     },
     "hub": {
@@ -1244,6 +1144,252 @@
       },
       "form": {
         "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
+      }
+    }
+  },
+  "template": {
+    "header": {
+      "logo": {
+        "src": "images/logo/ieo.gif",
+        "alt": "ieo website"
+      }
+    },
+    "footer": {
+      "contacts": [
+        {
+          "type": "facebook",
+          "icon": "images/social media/beta/facebook.png",
+          "link": "https://www.facebook.com/ieoil1/"
+        },
+        {
+          "type": "instagram",
+          "icon": "images/social media/beta/instagram.png",
+          "link": "https://www.instagram.com/ieo_il/"
+        },
+        {
+          "type": "twitter",
+          "icon": "images/social media/beta/twitter.png",
+          "link": "https://twitter.com/IEO_IL/"
+        },
+        {
+          "type": "linkedin",
+          "icon": "images/social media/beta/linkedin.png",
+          "link": "https://www.linkedin.com/company/ieo-il/"
+        }
+      ]
+    },
+    "navigation": {
+      "main": [
+        {
+          "name": "אודות",
+          "to": "/about/who-we-are",
+          "variant": "yellow"
+        },
+        {
+          "name": "תחומי פעילות",
+          "to": "/activities/business",
+          "variant": "purple"
+        },
+        {
+          "name": "פתרונות",
+          "to": "/solutions/development",
+          "variant": "blue"
+        },
+        {
+          "name": "מוצרים",
+          "to": "/products/info",
+          "variant": "green"
+        }
+      ],
+      "sub": {
+        "אודות": [
+          {
+            "name": "מי אנחנו",
+            "to": "/about/who-we-are",
+            "variant": "yellow"
+          }
+        ],
+        "תחומי פעילות": [
+          {
+            "name": "עסקי",
+            "to": "/activities/business",
+            "variant": "purple"
+          },
+          {
+            "name": "פיננסי",
+            "to": "/activities/finance",
+            "variant": "purple"
+          },
+          {
+            "name": "אינטרנט",
+            "to": "/activities/internet",
+            "variant": "purple"
+          }
+        ],
+        "פתרונות": [
+          {
+            "name": "פיתוח",
+            "to": "/solutions/development",
+            "variant": "blue"
+          },
+          {
+            "name": "אינטגרציות",
+            "to": "/solutions/integration",
+            "variant": "blue"
+          },
+          {
+            "name": "פרסום",
+            "to": "/solutions/advertising",
+            "variant": "blue"
+          },
+          {
+            "name": "ניתוח דאטה",
+            "to": "/solutions/data-analysis",
+            "variant": "blue"
+          },
+          {
+            "name": "תקשורת ו -IT",
+            "to": "/solutions/communications-&-it",
+            "variant": "blue"
+          }
+        ],
+        "מוצרים": [
+          {
+            "name": "מוצרים",
+            "to": "/products/info",
+            "variant": "green"
+          },
+          {
+            "name": "CRM",
+            "to": "/products/crm",
+            "variant": "green"
+          },
+          {
+            "name": "דפי נחיתה",
+            "to": "/products/landing-pages",
+            "variant": "green"
+          },
+          {
+            "name": "אחסון",
+            "to": "/products/storage",
+            "variant": "green"
+          },
+          {
+            "name": "סקיוריטי",
+            "to": "/products/security",
+            "variant": "green"
+          },
+          {
+            "name": "תקשורת",
+            "to": "/products/connection",
+            "variant": "green"
+          },
+          {
+            "name": "התקנה",
+            "to": "/products/setting",
+            "variant": "green"
+          },
+          {
+            "name": "הפעלת מוקדים",
+            "to": "/products/center",
+            "variant": "green"
+          }
+        ]
+      },
+      "subMobile": {
+        "אודות": [
+          {
+            "name": "מי אנחנו",
+            "to": "/about/who-we-are",
+            "variant": "yellow"
+          }
+        ],
+        "תחומי פעילות": [
+          {
+            "name": "עסקי",
+            "to": "/activities/business",
+            "variant": "purple"
+          },
+          {
+            "name": "פיננסי",
+            "to": "/activities/finance",
+            "variant": "purple"
+          },
+          {
+            "name": "אינטרנט",
+            "to": "/activities/internet",
+            "variant": "purple"
+          }
+        ],
+        "פתרונות": [
+          {
+            "name": "פיתוח",
+            "to": "/solutions/development",
+            "variant": "blue"
+          },
+          {
+            "name": "אינטגרציות",
+            "to": "/solutions/integration",
+            "variant": "blue"
+          },
+          {
+            "name": "פרסום",
+            "to": "/solutions/advertising",
+            "variant": "blue"
+          },
+          {
+            "name": "ניתוח דאטה",
+            "to": "/solutions/data-analysis",
+            "variant": "blue"
+          },
+          {
+            "name": "תקשורת ו -IT",
+            "to": "/solutions/communications-&-it",
+            "variant": "blue"
+          }
+        ],
+        "מוצרים": [
+          {
+            "name": "מוצרים",
+            "to": "/products/info",
+            "variant": "green"
+          },
+          {
+            "name": "CRM",
+            "to": "/products/crm",
+            "variant": "green"
+          },
+          {
+            "name": "דפי נחיתה",
+            "to": "/products/landing-pages",
+            "variant": "green"
+          },
+          {
+            "name": "אחסון",
+            "to": "/products/storage",
+            "variant": "green"
+          },
+          {
+            "name": "סקיוריטי",
+            "to": "/products/security",
+            "variant": "green"
+          },
+          {
+            "name": "תקשורת",
+            "to": "/products/connection",
+            "variant": "green"
+          },
+          {
+            "name": "התקנה",
+            "to": "/products/setting",
+            "variant": "green"
+          },
+          {
+            "name": "הפעלת מוקדים",
+            "to": "/products/center",
+            "variant": "green"
+          }
+        ]
       }
     }
   }

@@ -12,6 +12,7 @@ const Product = ({
     params: { name }
   }
 }) => {
+  
   const { pages } = useContext(AppContext);
 
   if (!pages[name]) {

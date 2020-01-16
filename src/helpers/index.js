@@ -22,6 +22,30 @@ export const renderText = (text, align) => {
     : text;
 };
 
+export const headTextOnClick = (text, link) => {
+  window.dataLayer.push({
+    event: "click",
+    pageLink: link,
+    pageText: text
+  });
+};
+
+export const renderHeadText = (text, align, link) => {
+  return link ? (
+    <a
+      href={link}
+      onClick={() => {
+        headTextOnClick(text, link);
+      }}
+      target="_blank"
+    >
+      {renderText(text, align)}
+    </a>
+  ) : (
+    renderText(text, align)
+  );
+};
+
 // TODO: Each child in a list should have a unique "key" prop
 export const renderContent = (content, blockName, variant, align) =>
   content.map(contentGroup => {
@@ -36,7 +60,7 @@ export const renderContent = (content, blockName, variant, align) =>
                 variant ? `${blockName}__title--theme-${variant}` : ""
               )}
             >
-              {renderText(value)}
+              {renderHeadText(value, align, contentGroup["to"])}
             </h3>
           );
         case "text":
