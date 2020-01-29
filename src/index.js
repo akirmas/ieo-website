@@ -19,8 +19,19 @@ import * as serviceWorker from "./serviceWorker";
 import { resolvePath } from "./helpers";
 
 import "./styles/main.scss";
+import TagManager from "react-gtm-module";
 
 library.add(faChevronRight, faChevronLeft);
+
+const tagManagerArgs = {
+  gtmId: "GTM-WFW9MPQ",
+  dataLayer: {
+    userId: "001",
+    userProject: "project"
+  }
+};
+
+TagManager.initialize(tagManagerArgs);
 
 const Index = ({ data }) => (
   <ErrorBoundary>
