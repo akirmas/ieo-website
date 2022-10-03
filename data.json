@@ -594,7 +594,7 @@
         "alt": "צור קשר"
       },
       "form": {
-        "url": "http://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
+        "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
       }
     },
     "communications-&-it": {
@@ -986,7 +986,7 @@
           "alt": "צור קשר"
         },
         "form": {
-          "url": "http://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
+          "url": "https://payment.gobemark.info/apis/configs/forms/?json=ieo/contact/index"
         }
       }
     },
