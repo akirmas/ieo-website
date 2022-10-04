@@ -587,10 +587,10 @@
     "contact-us": {
       "title": "צור קשר",
       "subtitle": [
-        "על מנת לקבל מידע נוסף על המוצרים והשירותים שלנו, מלא\\י פרטים ונחזור אלייך בהקדם"
+        "לכל שאלה וייעוץ, השאירו פרטים ונחזור אליכם בהקדם"
       ],
       "hero": {
-        "src": "images/pages/contact-us/hero.png",
+        "src": "images/pages/contact-us/Contact-Us.png",
         "alt": "צור קשר"
       },
       "form": {
@@ -979,10 +979,10 @@
       "contact-us": {
         "title": "צור קשר",
         "subtitle": [
-          "על מנת לקבל מידע נוסף על המוצרים והשירותים שלנו, מלא\\י פרטים ונחזור אלייך בהקדם"
+          "לכל שאלה וייעוץ, השאירו פרטים ונחזור אליכם בהקדם"
         ],
         "hero": {
-          "src": "images/pages/contact-us/hero.png",
+          "src": "images/pages/contact-us/Contact-Us.png",
           "alt": "צור קשר"
         },
         "form": {
