@@ -1159,22 +1159,22 @@
         {
           "type": "facebook",
           "icon": "images/social media/beta/facebook.png",
-          "link": "https://www.facebook.com/IEOil1/"
+          "link": ""
         },
         {
           "type": "instagram",
           "icon": "images/social media/beta/instagram.png",
-          "link": "https://www.instagram.com/IEO_il/"
+          "link": ""
         },
         {
           "type": "twitter",
           "icon": "images/social media/beta/twitter.png",
-          "link": "https://twitter.com/IEO_IL/"
+          "link": ""
         },
         {
           "type": "linkedin",
           "icon": "images/social media/beta/linkedin.png",
-          "link": "https://www.linkedin.com/company/IEO-il/"
+          "link": ""
         }
       ]
     },
